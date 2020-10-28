@@ -141,12 +141,16 @@ def generate_install():
         with open(f"v/lib/python{PYTHON_VERSION}/site-packages/{package.replace('-', '_')}-{version}.dist-info/RECORD") as f:
             for line in f.read().strip().splitlines():
                 file = line.split(",")[0]
+
+                if file.endswith(".dist-info/REQUESTED"):
+                    continue
+
                 files.append(file)
 
         with open(f"debian/{package_name}.install", "w") as f:
             f.write("\n".join([
-                " ".join([f"v/lib/python{PYTHON_VERSION}/site-packages/{file}",
-                          f"usr/lib/python3/dist-packages/{os.path.dirname(file)}"])
+                " ".join([os.path.normpath(f"v/lib/python{PYTHON_VERSION}/site-packages/{file}"),
+                          os.path.normpath(f"usr/lib/python3/dist-packages/{os.path.dirname(file)}")])
                 for file in files
             ]))
 

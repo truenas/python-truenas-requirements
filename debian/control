@@ -36,6 +36,18 @@ Depends: python3-six (>= 1.9), python3-setuptools
 Description: Protobuf for Python
  Protobuf is a protobuf library for for Python.
 
+Package: python3-pyroute2
+Architecture: amd64
+Depends: 
+Description: Pyroute2 for Python
+ Pyroute2 is a pyroute2 library for for Python.
+
+Package: python3-remote-pdb
+Architecture: amd64
+Depends: 
+Description: Remote-Pdb for Python
+ Remote-Pdb is a remote-pdb library for for Python.
+
 Package: python3-uritemplate
 Architecture: amd64
 Depends: 
