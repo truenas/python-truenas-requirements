@@ -95,6 +95,8 @@ def generate_control():
                 else:
                     depends.append(dependency)
 
+        depends.sort()
+
         control += "\n" + textwrap.dedent(f"""\
             Package: {package_name}
             Architecture: amd64
