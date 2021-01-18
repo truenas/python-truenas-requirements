@@ -36,6 +36,12 @@ Depends: python3-six (>= 1.9)
 Description: Protobuf for Python
  Protobuf is a protobuf library for for Python.
 
+Package: python3-pyparsing
+Architecture: amd64
+Depends: 
+Description: Pyparsing for Python
+ Pyparsing is a pyparsing library for for Python.
+
 Package: python3-pyroute2
 Architecture: amd64
 Depends: 
@@ -47,6 +53,12 @@ Architecture: amd64
 Depends: 
 Description: Remote-Pdb for Python
  Remote-Pdb is a remote-pdb library for for Python.
+
+Package: python3-tableprint
+Architecture: amd64
+Depends: python3-future, python3-wcwidth
+Description: Tableprint for Python
+ Tableprint is a tableprint library for for Python.
 
 Package: python3-uritemplate
 Architecture: amd64
