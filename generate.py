@@ -1,4 +1,5 @@
 # -*- coding=utf-8 -*-
+from dataclasses import dataclass
 from datetime import datetime
 import logging
 import os
@@ -49,12 +50,27 @@ def generate_changelog():
         """))
 
 
+@dataclass
+class Requirement:
+    requirement: str
+    package: str
+    version: str
+    distinfo: str
+
+
 def list_requirements():
     with open("requirements.txt") as f:
         requirements = f.read().strip().split()
 
     for requirement in requirements:
-        yield requirement.split("==")
+        package, version = requirement.split("#egg=")[-1].split("==")
+
+        distinfo = f"{package.replace('-', '_')}-{version}.dist-info"
+
+        if requirement.startswith("git+"):
+            version = f"{version.split('.')[0]}.99.99"
+
+        yield Requirement(requirement, package, version, distinfo)
 
 
 def generate_control():
@@ -68,28 +84,29 @@ def generate_control():
         Homepage: https://truenas.com
     """)
 
-    for package, version in list_requirements():
-        package_name = pip_to_debian(package)
+    for requirement in list_requirements():
+        package_name = pip_to_debian(requirement.package)
 
         depends = []
-        output = subprocess.run(f"v/bin/pip download {package} -d /tmp --no-binary :all: -v", check=True,
-                                capture_output=True, shell=True, text=True).stdout
+        output = subprocess.run(f"v/bin/pip download {requirement.requirement} -c constraints.txt -c requirements.txt "
+                                f"-d /tmp --no-binary :all: -v",
+                                check=True, capture_output=True, shell=True, text=True).stdout
         for dependency in re.findall(r"Collecting (.+)", output):
-            if dependency != package:
-                expressions = dependency.split(",")
-                if m := re.match("([0-9A-Za-z_-]+)([^0-9A-Za-z_-].+)$", expressions[0]):
-                    dependency = m.group(1)
-                    expressions[0] = m.group(2)
-                else:
-                    dependency = expressions[0]
-                    expressions = []
+            expressions = dependency.split(",")
+            if m := re.match("([0-9A-Za-z_-]+)([^0-9A-Za-z_-].+)$", expressions[0]):
+                dependency = m.group(1)
+                expressions[0] = m.group(2)
+            else:
+                dependency = expressions[0]
+                expressions = []
 
-                expressions = list(map(
-                    lambda e: re.sub(r"([^0-9])([0-9])", "\\1 \\2", e, 1).replace("< ", "<< ").replace("> ", ">>"),
-                    filter(lambda e: not e.startswith("!="), expressions),
-                ))
+            expressions = list(map(
+                lambda e: re.sub(r"([^0-9])([0-9])", "\\1 \\2", e, 1).replace("< ", "<< ").replace("> ", ">>"),
+                filter(lambda e: not e.startswith("!="), expressions),
+            ))
 
-                dependency = pip_to_debian(dependency)
+            dependency = pip_to_debian(dependency)
+            if dependency != package_name:
                 if expressions:
                     depends.extend([f"{dependency} ({expression})" for expression in expressions])
                 else:
@@ -101,8 +118,8 @@ def generate_control():
             Package: {package_name}
             Architecture: amd64
             Depends: {', '.join(depends)}
-            Description: {package.title()} for Python
-             {package.title()} is a {package} library for for Python.
+            Description: {requirement.package.title()} for Python
+             {requirement.package.title()} is a {requirement.package} library for for Python.
         """)
 
     with open("debian/control", "w") as f:
@@ -124,10 +141,10 @@ def generate_rules():
         	dh_gencontrol
     """)
 
-    for package, version in list_requirements():
-        package_name = pip_to_debian(package)
+    for requirement in list_requirements():
+        package_name = pip_to_debian(requirement.package)
 
-        rules += f"\tdh_gencontrol -p{package_name} -- -v{version}\n"
+        rules += f"\tdh_gencontrol -p{package_name} -- -v{requirement.version}\n"
 
     with open("debian/rules", "w") as f:
         f.write(rules)
@@ -136,11 +153,11 @@ def generate_rules():
 def generate_install():
     subprocess.run("v/bin/pip install -r requirements.txt", check=True, shell=True)
 
-    for package, version in list_requirements():
-        package_name = pip_to_debian(package)
+    for requirement in list_requirements():
+        package_name = pip_to_debian(requirement.package)
 
         files = []
-        with open(f"v/lib/python{PYTHON_VERSION}/site-packages/{package.replace('-', '_')}-{version}.dist-info/RECORD") as f:
+        with open(f"v/lib/python{PYTHON_VERSION}/site-packages/{requirement.distinfo}/RECORD") as f:
             for line in f.read().strip().splitlines():
                 file = line.split(",")[0]
 
