@@ -3,6 +3,7 @@ google-api-core==1.23.0
 google-api-python-client==1.12.5
 google-auth==1.22.1
 googleapis-common-protos==1.52.0
+grpcio==1.39.0
 paramiko==2.10.3
 git+https://github.com/truenas/python-prompt-toolkit.git@f6cbd55#egg=prompt-toolkit==3.0.23
 protobuf==3.17.0
