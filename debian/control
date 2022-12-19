@@ -6,6 +6,12 @@ Build-Depends: debhelper-compat (= 12), python3-virtualenv
 Standards-Version: 4.4.0
 Homepage: https://truenas.com
 
+Package: python3-container-runtime-interface-api
+Architecture: amd64
+Depends: python3-grpcio (>= 1.39.0), python3-protobuf (>= 3.17.0), python3-six (>= 1.5.2)
+Description: Container-Runtime-Interface-Api for Python
+ Container-Runtime-Interface-Api is a container-runtime-interface-api library for for Python.
+
 Package: python3-google-api-core
 Architecture: amd64
 Depends: python3-cachetools (<< 5.0), python3-cachetools (>= 2.0.0), python3-certifi (>= 2017.4.17), python3-chardet (<< 5), python3-chardet (>= 3.0.2), python3-google-auth (<< 2.0dev), python3-google-auth (>= 1.21.1), python3-googleapis-common-protos (<< 2.0dev), python3-googleapis-common-protos (>= 1.6.0), python3-idna (<< 3), python3-idna (>= 2.5), python3-protobuf (>= 3.12.0), python3-pyasn1 (<< 0.5.0), python3-pyasn1 (>= 0.4.6), python3-pyasn1-modules (>= 0.2.1), python3-requests (<< 3.0.0dev), python3-requests (>= 2.18.0), python3-rsa (<< 5), python3-rsa (>= 3.1.4), python3-setuptools (>= 34.0.0), python3-six (>= 1.13.0), python3-tz, python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1)
@@ -30,6 +36,12 @@ Depends: python3-protobuf (>= 3.6.0), python3-setuptools, python3-six (>= 1.9)
 Description: Googleapis-Common-Protos for Python
  Googleapis-Common-Protos is a googleapis-common-protos library for for Python.
 
+Package: python3-grpcio
+Architecture: amd64
+Depends: python3-six (>= 1.5.2)
+Description: Grpcio for Python
+ Grpcio is a grpcio library for for Python.
+
 Package: python3-paramiko
 Architecture: amd64
 Depends: python3-bcrypt (>= 3.1.3), python3-cffi (>= 1.1), python3-cryptography (>= 2.5), python3-nacl (>= 1.0.1), python3-pycparser, python3-six
@@ -44,7 +56,7 @@ Description: Prompt-Toolkit for Python
 
 Package: python3-protobuf
 Architecture: amd64
-Depends: python3-setuptools, python3-six (>= 1.9)
+Depends: python3-six (>= 1.9)
 Description: Protobuf for Python
  Protobuf is a protobuf library for for Python.
 
