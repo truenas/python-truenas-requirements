@@ -5,7 +5,7 @@ google-auth==1.22.1
 googleapis-common-protos==1.52.0
 paramiko==2.10.3
 git+https://github.com/truenas/python-prompt-toolkit.git@f6cbd55#egg=prompt-toolkit==3.0.23
-protobuf==3.13.0
+protobuf==3.17.0
 pyparsing==3.0.0b2
 pyroute2==0.5.14
 remote-pdb==2.1.0

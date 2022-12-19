@@ -8,7 +8,7 @@ Homepage: https://truenas.com
 
 Package: python3-container-runtime-interface-api
 Architecture: amd64
-Depends: python3-grpcio (~= 1.39), python3-protobuf (~= 3.17)
+Depends: python3-grpcio (~= 1.39), python3-protobuf (~= 3.17), python3-six (>= 1.9)
 Description: Container-Runtime-Interface-Api for Python
  Container-Runtime-Interface-Api is a container-runtime-interface-api library for for Python.
 
@@ -50,7 +50,7 @@ Description: Prompt-Toolkit for Python
 
 Package: python3-protobuf
 Architecture: amd64
-Depends: python3-setuptools, python3-six (>= 1.9)
+Depends: python3-six (>= 1.9)
 Description: Protobuf for Python
  Protobuf is a protobuf library for for Python.
 
