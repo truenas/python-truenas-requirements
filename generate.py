@@ -102,7 +102,8 @@ def generate_control():
                 expressions = []
 
             expressions = list(map(
-                lambda e: re.sub(r"([^0-9])([0-9])", "\\1 \\2", e, 1).replace("< ", "<< ").replace("> ", ">>"),
+                lambda e: (re.sub(r"([^0-9])([0-9])", "\\1 \\2", e, 1).replace("< ", "<< ").replace("> ", ">>").
+                           replace("~=", ">=")),
                 filter(lambda e: not e.startswith("!="), expressions),
             ))
 
