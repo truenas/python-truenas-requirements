@@ -11,4 +11,5 @@ pyparsing==3.0.0b2
 pyroute2==0.5.14
 remote-pdb==2.1.0
 tableprint==0.9.1
+websocket-client==1.4.2
 uritemplate==3.0.1

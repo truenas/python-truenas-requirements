@@ -22,4 +22,5 @@ override_dh_gencontrol:
 	dh_gencontrol -ppython3-pyroute2 -- -v0.5.14
 	dh_gencontrol -ppython3-remote-pdb -- -v2.1.0
 	dh_gencontrol -ppython3-tableprint -- -v0.9.1
+	dh_gencontrol -ppython3-websocket-client -- -v1.4.2
 	dh_gencontrol -ppython3-uritemplate -- -v3.0.1
