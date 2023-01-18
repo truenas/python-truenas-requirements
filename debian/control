@@ -84,7 +84,7 @@ Depends: python3-future, python3-wcwidth
 Description: Tableprint for Python
  Tableprint is a tableprint library for for Python.
 
-Package: python3-websocket-client
+Package: python3-websocket
 Architecture: amd64
 Depends: 
 Description: Websocket-Client for Python
