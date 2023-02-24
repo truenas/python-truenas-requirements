@@ -9,6 +9,7 @@ override_dh_auto_build:
 
 override_dh_gencontrol:
 	dh_gencontrol
+	dh_gencontrol -ppython3-asyncssh -- -v2.13.1
 	dh_gencontrol -ppython3-container-runtime-interface-api -- -v0.1.0
 	dh_gencontrol -ppython3-google-api-core -- -v1.23.0
 	dh_gencontrol -ppython3-googleapi -- -v1.12.5
