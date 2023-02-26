@@ -8,7 +8,7 @@ Homepage: https://truenas.com
 
 Package: python3-asyncssh
 Architecture: amd64
-Depends: python3-cffi (>= 1.12), python3-cryptography (>= 3.1), python3-pycparser, python3-typing_extensions (>= 3.6)
+Depends: python3-cffi (>= 1.12), python3-cryptography (>= 3.1), python3-pycparser, python3-typing-extensions (>= 3.6)
 Description: Asyncssh for Python
  Asyncssh is a asyncssh library for for Python.
 
