@@ -5,6 +5,7 @@ certbot-dns-cloudflare==2.5.0
 certbot-dns-digitalocean==2.5.0
 certbot-dns-google==2.5.0
 certbot-dns-ovh==2.5.0
+charset-normalizer==3.1.0
 container-runtime-interface-api==0.1.0
 google-api==0.1.12
 google-api-core==2.11.0
