@@ -42,41 +42,11 @@ Depends: python3-protobuf (>= 3.6.0), python3-six (>= 1.9)
 Description: Googleapis-Common-Protos for Python
  Googleapis-Common-Protos is a googleapis-common-protos library for for Python.
 
-Package: python3-grpcio
-Architecture: amd64
-Depends: python3-six (>= 1.5.2)
-Description: Grpcio for Python
- Grpcio is a grpcio library for for Python.
-
-Package: python3-paramiko
-Architecture: amd64
-Depends: python3-bcrypt (>= 3.1.3), python3-cffi (>= 1.12), python3-cryptography (>= 2.5), python3-nacl (>= 1.0.1), python3-pycparser, python3-six
-Description: Paramiko for Python
- Paramiko is a paramiko library for for Python.
-
 Package: python3-prompt-toolkit
 Architecture: amd64
 Depends: python3-wcwidth
 Description: Prompt-Toolkit for Python
  Prompt-Toolkit is a prompt-toolkit library for for Python.
-
-Package: python3-protobuf
-Architecture: amd64
-Depends: python3-six (>= 1.9)
-Description: Protobuf for Python
- Protobuf is a protobuf library for for Python.
-
-Package: python3-pyparsing
-Architecture: amd64
-Depends: 
-Description: Pyparsing for Python
- Pyparsing is a pyparsing library for for Python.
-
-Package: python3-pyroute2
-Architecture: amd64
-Depends: 
-Description: Pyroute2 for Python
- Pyroute2 is a pyroute2 library for for Python.
 
 Package: python3-remote-pdb
 Architecture: amd64
@@ -95,9 +65,3 @@ Architecture: amd64
 Depends: 
 Description: Websocket-Client for Python
  Websocket-Client is a websocket-client library for for Python.
-
-Package: python3-uritemplate
-Architecture: amd64
-Depends: 
-Description: Uritemplate for Python
- Uritemplate is a uritemplate library for for Python.
