@@ -1,3 +1,4 @@
+acme==2.5.0
 asyncssh==2.13.1
 certbot-dns-google==2.5.0
 container-runtime-interface-api==0.1.0

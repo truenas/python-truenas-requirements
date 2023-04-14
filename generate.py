@@ -13,6 +13,7 @@ logger = logging.getLogger(__name__)
 
 PIP_TO_DEBIAN_MAPPING = {
     "google-api-python-client": "python3-googleapi",
+    "PyOpenSSL": "python3-openssl",
     "pynacl": "python3-nacl",
     "pytz": "python3-tz",
     "typing_extensions": "python3-typing-extensions",
