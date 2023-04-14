@@ -12,8 +12,10 @@ override_dh_gencontrol:
 	dh_gencontrol -ppython3-acme -- -v2.5.0
 	dh_gencontrol -ppython3-asyncssh -- -v2.13.1
 	dh_gencontrol -ppython3-certbot -- -v2.5.0
+	dh_gencontrol -ppython3-certbot-dns-cloudflare -- -v2.5.0
+	dh_gencontrol -ppython3-certbot-dns-digitalocean -- -v2.5.0
 	dh_gencontrol -ppython3-certbot-dns-google -- -v2.5.0
-	dh_gencontrol -ppython3-chardet -- -v4.0.0
+	dh_gencontrol -ppython3-certbot-dns-ovh -- -v2.5.0
 	dh_gencontrol -ppython3-container-runtime-interface-api -- -v0.1.0
 	dh_gencontrol -ppython3-google-api -- -v0.1.12
 	dh_gencontrol -ppython3-google-api-core -- -v2.11.0
@@ -21,7 +23,6 @@ override_dh_gencontrol:
 	dh_gencontrol -ppython3-google-auth -- -v2.17.3
 	dh_gencontrol -ppython3-googleapis-common-protos -- -v1.59.0
 	dh_gencontrol -ppython3-prompt-toolkit -- -v3.99.99
-	dh_gencontrol -ppython3-idna -- -v2.10
 	dh_gencontrol -ppython3-ipaddr -- -v2.2.0
 	dh_gencontrol -ppython3-pyrfc3339 -- -v1.1
 	dh_gencontrol -ppython3-remote-pdb -- -v2.1.0
