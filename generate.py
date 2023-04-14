@@ -15,6 +15,7 @@ PIP_TO_DEBIAN_MAPPING = {
     "google-api-python-client": "python3-googleapi",
     "pynacl": "python3-nacl",
     "pytz": "python3-tz",
+    "typing_extensions": "python3-typing-extensions",
     "websocket-client": "python3-websocket",
 }
 PYTHON_VERSION = f"{sys.version_info.major}.{sys.version_info.minor}"
