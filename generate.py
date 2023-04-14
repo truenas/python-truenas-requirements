@@ -23,7 +23,7 @@ PYTHON_VERSION = f"{sys.version_info.major}.{sys.version_info.minor}"
 
 
 def pip_to_debian(name):
-    return PIP_TO_DEBIAN_MAPPING.get(name, f"python3-{name}")
+    return PIP_TO_DEBIAN_MAPPING.get(name, f"python3-{name}").lower()
 
 
 def generate_build():
