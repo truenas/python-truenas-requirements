@@ -12,10 +12,12 @@ import textwrap
 logger = logging.getLogger(__name__)
 
 PIP_TO_DEBIAN_MAPPING = {
+    "beautifulsoup4": "python3-bs4",
     "google-api-python-client": "python3-googleapi",
     "PyOpenSSL": "python3-openssl",
     "pynacl": "python3-nacl",
     "pytz": "python3-tz",
+    "pyyaml": "python3-yaml",
     "typing_extensions": "python3-typing-extensions",
     "websocket-client": "python3-websocket",
 }
