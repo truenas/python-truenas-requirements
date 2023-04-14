@@ -15,13 +15,7 @@ override_dh_gencontrol:
 	dh_gencontrol -ppython3-googleapi -- -v1.12.5
 	dh_gencontrol -ppython3-google-auth -- -v1.22.1
 	dh_gencontrol -ppython3-googleapis-common-protos -- -v1.52.0
-	dh_gencontrol -ppython3-grpcio -- -v1.39.0
-	dh_gencontrol -ppython3-paramiko -- -v2.10.3
 	dh_gencontrol -ppython3-prompt-toolkit -- -v3.99.99
-	dh_gencontrol -ppython3-protobuf -- -v3.17.0
-	dh_gencontrol -ppython3-pyparsing -- -v3.0.0b2
-	dh_gencontrol -ppython3-pyroute2 -- -v0.5.14
 	dh_gencontrol -ppython3-remote-pdb -- -v2.1.0
 	dh_gencontrol -ppython3-tableprint -- -v0.9.1
 	dh_gencontrol -ppython3-websocket -- -v1.4.2
-	dh_gencontrol -ppython3-uritemplate -- -v3.0.1
