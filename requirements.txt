@@ -1,10 +1,4 @@
-acme==2.5.0
 asyncssh==2.13.1
-certbot==2.5.0
-certbot-dns-cloudflare==2.5.0
-certbot-dns-digitalocean==2.5.0
-certbot-dns-google==2.5.0
-certbot-dns-ovh==2.5.0
 container-runtime-interface-api==0.1.0
 google-api==0.1.12
 google-api-core==2.11.0
@@ -13,7 +7,6 @@ google-auth==2.17.3
 googleapis-common-protos==1.59.0
 git+https://github.com/truenas/python-prompt-toolkit.git@84d42cd#egg=prompt-toolkit==3.0.37
 ipaddr==2.2.0
-pyRFC3339==1.1
 remote-pdb==2.1.0
 tableprint==0.9.1
 websocket-client==1.4.2
