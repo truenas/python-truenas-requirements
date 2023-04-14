@@ -23,7 +23,7 @@ override_dh_gencontrol:
 	dh_gencontrol -ppython3-prompt-toolkit -- -v3.99.99
 	dh_gencontrol -ppython3-idna -- -v2.10
 	dh_gencontrol -ppython3-ipaddr -- -v2.2.0
-	dh_gencontrol -ppython3-pyRFC3339 -- -v1.1
+	dh_gencontrol -ppython3-pyrfc3339 -- -v1.1
 	dh_gencontrol -ppython3-remote-pdb -- -v2.1.0
 	dh_gencontrol -ppython3-tableprint -- -v0.9.1
 	dh_gencontrol -ppython3-websocket -- -v1.4.2
