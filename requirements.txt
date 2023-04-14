@@ -12,7 +12,7 @@ googleapis-common-protos==1.59.0
 git+https://github.com/truenas/python-prompt-toolkit.git@84d42cd#egg=prompt-toolkit==3.0.37
 idna==2.10
 ipaddr==2.2.0
-pyrfc3339==1.1
+pyRFC3339==1.1
 remote-pdb==2.1.0
 tableprint==0.9.1
 websocket-client==1.4.2
