@@ -60,6 +60,12 @@ Depends:
 Description: Ipaddr for Python
  Ipaddr is a ipaddr library for for Python.
 
+Package: python3-onedrivesdk
+Architecture: amd64
+Depends: python3-certifi (>= 2017.4.17), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2), python3-idna (<< 4), python3-idna (>= 2.5), python3-requests (>= 2.6.1), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1)
+Description: Onedrivesdk for Python
+ Onedrivesdk is a onedrivesdk library for for Python.
+
 Package: python3-remote-pdb
 Architecture: amd64
 Depends: 
