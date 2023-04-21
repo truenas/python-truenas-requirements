@@ -12,16 +12,20 @@ import textwrap
 logger = logging.getLogger(__name__)
 
 PIP_TO_DEBIAN_MAPPING = {
+    "beautifulsoup4": "python3-bs4",
     "google-api-python-client": "python3-googleapi",
+    "PyOpenSSL": "python3-openssl",
     "pynacl": "python3-nacl",
     "pytz": "python3-tz",
+    "pyyaml": "python3-yaml",
+    "typing_extensions": "python3-typing-extensions",
     "websocket-client": "python3-websocket",
 }
 PYTHON_VERSION = f"{sys.version_info.major}.{sys.version_info.minor}"
 
 
 def pip_to_debian(name):
-    return PIP_TO_DEBIAN_MAPPING.get(name, f"python3-{name}")
+    return PIP_TO_DEBIAN_MAPPING.get(name, f"python3-{name}").lower()
 
 
 def generate_build():
@@ -81,7 +85,7 @@ def generate_control():
         Section: admin
         Priority: optional
         Maintainer: Vladimir Vinogradenko <vladimirv@ixsystems.com>
-        Build-Depends: debhelper-compat (= 12), python3-virtualenv
+        Build-Depends: debhelper-compat (= 12), libffi-dev, python3-virtualenv
         Standards-Version: 4.4.0
         Homepage: https://truenas.com
     """)
