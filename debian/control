@@ -6,6 +6,12 @@ Build-Depends: debhelper-compat (= 12), libffi-dev, python3-virtualenv
 Standards-Version: 4.4.0
 Homepage: https://truenas.com
 
+Package: python3-aiorwlock
+Architecture: amd64
+Depends: 
+Description: Aiorwlock for Python
+ Aiorwlock is a aiorwlock library for for Python.
+
 Package: python3-asyncssh
 Architecture: amd64
 Depends: python3-cffi (>= 1.12), python3-cryptography (>= 3.1), python3-pycparser, python3-typing-extensions (>= 3.6)
@@ -26,19 +32,19 @@ Description: Google-Api for Python
 
 Package: python3-google-api-core
 Architecture: amd64
-Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0), python3-certifi (>= 2017.4.17), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2), python3-google-auth (<< 3.0dev), python3-google-auth (>= 2.14.1), python3-googleapis-common-protos (<< 2.0dev), python3-googleapis-common-protos (>= 1.56.2), python3-idna (<< 4), python3-idna (>= 2.5), python3-protobuf (<< 5.0.0dev), python3-protobuf (>= 3.19.5), python3-pyasn1 (<< 0.5.0), python3-pyasn1 (>= 0.4.6), python3-pyasn1-modules (>= 0.2.1), python3-requests (<< 3.0.0dev), python3-requests (>= 2.18.0), python3-rsa (<< 5), python3-rsa (>= 3.1.4), python3-six (>= 1.9.0), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1)
+Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0), python3-certifi (>= 2017.4.17), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2), python3-google-auth (<< 3.0dev), python3-google-auth (>= 2.14.1), python3-googleapis-common-protos (<< 2.0dev), python3-googleapis-common-protos (>= 1.56.2), python3-idna (<< 4), python3-idna (>= 2.5), python3-protobuf (<< 5.0.0dev), python3-protobuf (>= 3.19.5), python3-pyasn1 (<< 0.6.0), python3-pyasn1 (>= 0.4.6), python3-pyasn1-modules (>= 0.2.1), python3-requests (<< 3.0.0dev), python3-requests (>= 2.18.0), python3-rsa (<< 5), python3-rsa (>= 3.1.4), python3-six (>= 1.9.0), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1)
 Description: Google-Api-Core for Python
  Google-Api-Core is a google-api-core library for for Python.
 
 Package: python3-googleapi
 Architecture: amd64
-Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0), python3-certifi (>= 2017.4.17), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2), python3-google-api-core (<< 3.0.0dev), python3-google-api-core (>= 1.31.5), python3-google-auth (<< 3.0.0dev), python3-google-auth (>= 1.19.0), python3-google-auth-httplib2 (>= 0.1.0), python3-googleapis-common-protos (<< 2.0dev), python3-googleapis-common-protos (>= 1.56.2), python3-httplib2 (<< 1dev), python3-httplib2 (>= 0.15.0), python3-idna (<< 4), python3-idna (>= 2.5), python3-protobuf (<< 5.0.0dev), python3-protobuf (>= 3.19.5), python3-pyasn1 (<< 0.5.0), python3-pyasn1 (>= 0.4.6), python3-pyasn1-modules (>= 0.2.1), python3-pyparsing (<< 4), python3-pyparsing (>= 2.4.2), python3-requests (<< 3.0.0dev), python3-requests (>= 2.18.0), python3-rsa (<< 5), python3-rsa (>= 3.1.4), python3-six (>= 1.9.0), python3-uritemplate (<< 5), python3-uritemplate (>= 3.0.1), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1)
+Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0), python3-certifi (>= 2017.4.17), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2), python3-google-api-core (<< 3.0.0dev), python3-google-api-core (>= 1.31.5), python3-google-auth (<< 3.0.0dev), python3-google-auth (>= 1.19.0), python3-google-auth-httplib2 (>= 0.1.0), python3-googleapis-common-protos (<< 2.0dev), python3-googleapis-common-protos (>= 1.56.2), python3-httplib2 (<< 1dev), python3-httplib2 (>= 0.15.0), python3-idna (<< 4), python3-idna (>= 2.5), python3-protobuf (<< 5.0.0dev), python3-protobuf (>= 3.19.5), python3-pyasn1 (<< 0.6.0), python3-pyasn1 (>= 0.4.6), python3-pyasn1-modules (>= 0.2.1), python3-pyparsing (<< 4), python3-pyparsing (>= 2.4.2), python3-requests (<< 3.0.0dev), python3-requests (>= 2.18.0), python3-rsa (<< 5), python3-rsa (>= 3.1.4), python3-six (>= 1.9.0), python3-uritemplate (<< 5), python3-uritemplate (>= 3.0.1), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1)
 Description: Google-Api-Python-Client for Python
  Google-Api-Python-Client is a google-api-python-client library for for Python.
 
 Package: python3-google-auth
 Architecture: amd64
-Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0), python3-pyasn1 (<< 0.5.0), python3-pyasn1 (>= 0.4.6), python3-pyasn1-modules (>= 0.2.1), python3-rsa (<< 5), python3-rsa (>= 3.1.4), python3-six (>= 1.9.0)
+Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0), python3-pyasn1 (<< 0.6.0), python3-pyasn1 (>= 0.4.6), python3-pyasn1-modules (>= 0.2.1), python3-rsa (<< 5), python3-rsa (>= 3.1.4), python3-six (>= 1.9.0)
 Description: Google-Auth for Python
  Google-Auth is a google-auth library for for Python.
 
