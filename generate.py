@@ -96,7 +96,7 @@ def generate_control():
         depends = []
         output = subprocess.run(f"v/bin/pip download {requirement.requirement} -c constraints.txt -c requirements.txt "
                                 f"-d /tmp --no-binary :all: -v",
-                                check=True, capture_output=True, shell=True, text=True).stdout
+                                check=True, stdout=subprocess.PIPE, shell=True, text=True).stdout
         for dependency in re.findall(r"Collecting (.+)", output):
             expressions = dependency.split(",")
             if m := re.match("([0-9A-Za-z_-]+)([^0-9A-Za-z_-].+)$", expressions[0]):
