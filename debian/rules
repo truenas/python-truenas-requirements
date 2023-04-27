@@ -19,7 +19,6 @@ override_dh_gencontrol:
 	dh_gencontrol -ppython3-googleapis-common-protos -- -v1.59.0
 	dh_gencontrol -ppython3-prompt-toolkit -- -v3.99.99
 	dh_gencontrol -ppython3-ipaddr -- -v2.2.0
-	dh_gencontrol -ppython3-onedrivesdk -- -v1.1.8
 	dh_gencontrol -ppython3-remote-pdb -- -v2.1.0
 	dh_gencontrol -ppython3-tableprint -- -v0.9.1
 	dh_gencontrol -ppython3-websocket -- -v1.4.2
