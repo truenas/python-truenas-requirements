@@ -10,4 +10,4 @@ git+https://github.com/truenas/python-prompt-toolkit.git@84d42cd#egg=prompt-tool
 ipaddr==2.2.0
 remote-pdb==2.1.0
 tableprint==0.9.1
-websocket-client==1.4.2
+websocket-client==1.6.1
