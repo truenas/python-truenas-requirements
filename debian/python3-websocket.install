@@ -46,10 +46,10 @@ v/lib/python3.11/site-packages/websocket/tests/test_cookiejar.py usr/lib/python3
 v/lib/python3.11/site-packages/websocket/tests/test_http.py usr/lib/python3/dist-packages/websocket/tests
 v/lib/python3.11/site-packages/websocket/tests/test_url.py usr/lib/python3/dist-packages/websocket/tests
 v/lib/python3.11/site-packages/websocket/tests/test_websocket.py usr/lib/python3/dist-packages/websocket/tests
-v/lib/python3.11/site-packages/websocket_client-1.4.2.dist-info/INSTALLER usr/lib/python3/dist-packages/websocket_client-1.4.2.dist-info
-v/lib/python3.11/site-packages/websocket_client-1.4.2.dist-info/LICENSE usr/lib/python3/dist-packages/websocket_client-1.4.2.dist-info
-v/lib/python3.11/site-packages/websocket_client-1.4.2.dist-info/METADATA usr/lib/python3/dist-packages/websocket_client-1.4.2.dist-info
-v/lib/python3.11/site-packages/websocket_client-1.4.2.dist-info/RECORD usr/lib/python3/dist-packages/websocket_client-1.4.2.dist-info
-v/lib/python3.11/site-packages/websocket_client-1.4.2.dist-info/WHEEL usr/lib/python3/dist-packages/websocket_client-1.4.2.dist-info
-v/lib/python3.11/site-packages/websocket_client-1.4.2.dist-info/entry_points.txt usr/lib/python3/dist-packages/websocket_client-1.4.2.dist-info
-v/lib/python3.11/site-packages/websocket_client-1.4.2.dist-info/top_level.txt usr/lib/python3/dist-packages/websocket_client-1.4.2.dist-info
+v/lib/python3.11/site-packages/websocket_client-1.6.1.dist-info/INSTALLER usr/lib/python3/dist-packages/websocket_client-1.6.1.dist-info
+v/lib/python3.11/site-packages/websocket_client-1.6.1.dist-info/LICENSE usr/lib/python3/dist-packages/websocket_client-1.6.1.dist-info
+v/lib/python3.11/site-packages/websocket_client-1.6.1.dist-info/METADATA usr/lib/python3/dist-packages/websocket_client-1.6.1.dist-info
+v/lib/python3.11/site-packages/websocket_client-1.6.1.dist-info/RECORD usr/lib/python3/dist-packages/websocket_client-1.6.1.dist-info
+v/lib/python3.11/site-packages/websocket_client-1.6.1.dist-info/WHEEL usr/lib/python3/dist-packages/websocket_client-1.6.1.dist-info
+v/lib/python3.11/site-packages/websocket_client-1.6.1.dist-info/entry_points.txt usr/lib/python3/dist-packages/websocket_client-1.6.1.dist-info
+v/lib/python3.11/site-packages/websocket_client-1.6.1.dist-info/top_level.txt usr/lib/python3/dist-packages/websocket_client-1.6.1.dist-info
