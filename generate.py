@@ -11,11 +11,17 @@ import textwrap
 
 logger = logging.getLogger(__name__)
 
+EXTRA_COMMANDS = [
+    "v/bin/pip install Cython==0.29.36",  # PyYAML build fails with Cython 3.0.0"
+]
 PIP_TO_DEBIAN_MAPPING = {
+    "attrs": "python3-attr",
     "beautifulsoup4": "python3-bs4",
     "google-api-python-client": "python3-googleapi",
     "PyOpenSSL": "python3-openssl",
     "pynacl": "python3-nacl",
+    "python-dateutil": "python3-dateutil",
+    "python-digitalocean": "python3-digitalocean",
     "pytz": "python3-tz",
     "pyyaml": "python3-yaml",
     "typing_extensions": "python3-typing-extensions",
@@ -29,10 +35,12 @@ def pip_to_debian(name):
 
 
 def generate_build():
+    extra = "\n".join(EXTRA_COMMANDS)
     with open("build.sh", "w") as f:
         f.write(textwrap.dedent(f"""\
             #!/bin/sh -ex
             virtualenv --python=python{PYTHON_VERSION} v
+            {extra}
             v/bin/pip install -r requirements.txt
         """))
 
@@ -188,6 +196,8 @@ if __name__ == "__main__":
         shutil.rmtree("v")
 
     subprocess.run(f"virtualenv --python=python{PYTHON_VERSION} v", check=True, shell=True)
+    for cmd in EXTRA_COMMANDS:
+        subprocess.run(cmd, check=True, shell=True)
 
     generate_build()
     generate_changelog()
