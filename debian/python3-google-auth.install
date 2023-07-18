@@ -22,6 +22,7 @@ v/lib/python3.11/site-packages/google/auth/__pycache__/iam.cpython-311.pyc usr/l
 v/lib/python3.11/site-packages/google/auth/__pycache__/identity_pool.cpython-311.pyc usr/lib/python3/dist-packages/google/auth/__pycache__
 v/lib/python3.11/site-packages/google/auth/__pycache__/impersonated_credentials.cpython-311.pyc usr/lib/python3/dist-packages/google/auth/__pycache__
 v/lib/python3.11/site-packages/google/auth/__pycache__/jwt.cpython-311.pyc usr/lib/python3/dist-packages/google/auth/__pycache__
+v/lib/python3.11/site-packages/google/auth/__pycache__/metrics.cpython-311.pyc usr/lib/python3/dist-packages/google/auth/__pycache__
 v/lib/python3.11/site-packages/google/auth/__pycache__/pluggable.cpython-311.pyc usr/lib/python3/dist-packages/google/auth/__pycache__
 v/lib/python3.11/site-packages/google/auth/__pycache__/version.cpython-311.pyc usr/lib/python3/dist-packages/google/auth/__pycache__
 v/lib/python3.11/site-packages/google/auth/_cloud_sdk.py usr/lib/python3/dist-packages/google/auth
@@ -66,6 +67,7 @@ v/lib/python3.11/site-packages/google/auth/iam.py usr/lib/python3/dist-packages/
 v/lib/python3.11/site-packages/google/auth/identity_pool.py usr/lib/python3/dist-packages/google/auth
 v/lib/python3.11/site-packages/google/auth/impersonated_credentials.py usr/lib/python3/dist-packages/google/auth
 v/lib/python3.11/site-packages/google/auth/jwt.py usr/lib/python3/dist-packages/google/auth
+v/lib/python3.11/site-packages/google/auth/metrics.py usr/lib/python3/dist-packages/google/auth
 v/lib/python3.11/site-packages/google/auth/pluggable.py usr/lib/python3/dist-packages/google/auth
 v/lib/python3.11/site-packages/google/auth/transport/__init__.py usr/lib/python3/dist-packages/google/auth/transport
 v/lib/python3.11/site-packages/google/auth/transport/__pycache__/__init__.cpython-311.pyc usr/lib/python3/dist-packages/google/auth/transport/__pycache__
@@ -116,11 +118,9 @@ v/lib/python3.11/site-packages/google/oauth2/reauth.py usr/lib/python3/dist-pack
 v/lib/python3.11/site-packages/google/oauth2/service_account.py usr/lib/python3/dist-packages/google/oauth2
 v/lib/python3.11/site-packages/google/oauth2/sts.py usr/lib/python3/dist-packages/google/oauth2
 v/lib/python3.11/site-packages/google/oauth2/utils.py usr/lib/python3/dist-packages/google/oauth2
-v/lib/python3.11/site-packages/google_auth-2.17.3-py3.9-nspkg.pth usr/lib/python3/dist-packages
-v/lib/python3.11/site-packages/google_auth-2.17.3.dist-info/INSTALLER usr/lib/python3/dist-packages/google_auth-2.17.3.dist-info
-v/lib/python3.11/site-packages/google_auth-2.17.3.dist-info/LICENSE usr/lib/python3/dist-packages/google_auth-2.17.3.dist-info
-v/lib/python3.11/site-packages/google_auth-2.17.3.dist-info/METADATA usr/lib/python3/dist-packages/google_auth-2.17.3.dist-info
-v/lib/python3.11/site-packages/google_auth-2.17.3.dist-info/RECORD usr/lib/python3/dist-packages/google_auth-2.17.3.dist-info
-v/lib/python3.11/site-packages/google_auth-2.17.3.dist-info/WHEEL usr/lib/python3/dist-packages/google_auth-2.17.3.dist-info
-v/lib/python3.11/site-packages/google_auth-2.17.3.dist-info/namespace_packages.txt usr/lib/python3/dist-packages/google_auth-2.17.3.dist-info
-v/lib/python3.11/site-packages/google_auth-2.17.3.dist-info/top_level.txt usr/lib/python3/dist-packages/google_auth-2.17.3.dist-info
+v/lib/python3.11/site-packages/google_auth-2.22.0.dist-info/INSTALLER usr/lib/python3/dist-packages/google_auth-2.22.0.dist-info
+v/lib/python3.11/site-packages/google_auth-2.22.0.dist-info/LICENSE usr/lib/python3/dist-packages/google_auth-2.22.0.dist-info
+v/lib/python3.11/site-packages/google_auth-2.22.0.dist-info/METADATA usr/lib/python3/dist-packages/google_auth-2.22.0.dist-info
+v/lib/python3.11/site-packages/google_auth-2.22.0.dist-info/RECORD usr/lib/python3/dist-packages/google_auth-2.22.0.dist-info
+v/lib/python3.11/site-packages/google_auth-2.22.0.dist-info/WHEEL usr/lib/python3/dist-packages/google_auth-2.22.0.dist-info
+v/lib/python3.11/site-packages/google_auth-2.22.0.dist-info/top_level.txt usr/lib/python3/dist-packages/google_auth-2.22.0.dist-info
