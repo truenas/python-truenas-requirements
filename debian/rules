@@ -35,6 +35,7 @@ override_dh_gencontrol:
 	dh_gencontrol -ppython3-prompt-toolkit -- -v3.99.99
 	dh_gencontrol -ppython3-pyrfc3339 -- -v1.1
 	dh_gencontrol -ppython3-digitalocean -- -v1.17.0
+	dh_gencontrol -ppython3-pyyaml -- -v6.0.1
 	dh_gencontrol -ppython3-remote-pdb -- -v2.1.0
 	dh_gencontrol -ppython3-s3transfer -- -v0.6.1
 	dh_gencontrol -ppython3-tableprint -- -v0.9.1
