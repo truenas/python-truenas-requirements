@@ -16,24 +16,25 @@ override_dh_gencontrol:
 	dh_gencontrol -ppython3-aws-requests-auth -- -v0.4.3
 	dh_gencontrol -ppython3-boto3 -- -v1.28.3
 	dh_gencontrol -ppython3-botocore -- -v1.31.3
+	dh_gencontrol -ppython3-certbot -- -v2.6.0
 	dh_gencontrol -ppython3-certbot-dns-cloudflare -- -v2.6.0
 	dh_gencontrol -ppython3-certbot-dns-digitalocean -- -v2.6.0
 	dh_gencontrol -ppython3-certbot-dns-google -- -v2.6.0
 	dh_gencontrol -ppython3-certbot-dns-ovh -- -v2.6.0
-	dh_gencontrol -ppython3-certbot -- -v2.6.0
 	dh_gencontrol -ppython3-cloudflare -- -v2.11.6
 	dh_gencontrol -ppython3-container-runtime-interface-api -- -v0.1.0
 	dh_gencontrol -ppython3-dns-lexicon -- -v3.12.0
 	dh_gencontrol -ppython3-google-api -- -v0.1.12
 	dh_gencontrol -ppython3-google-api-core -- -v2.11.1
 	dh_gencontrol -ppython3-googleapi -- -v2.93.0
+	dh_gencontrol -ppython3-googleapis-common-protos -- -v1.59.1
 	dh_gencontrol -ppython3-google-auth -- -v2.22.0
 	dh_gencontrol -ppython3-google-auth-httplib2 -- -v0.1.0
-	dh_gencontrol -ppython3-googleapis-common-protos -- -v1.59.1
 	dh_gencontrol -ppython3-ipaddr -- -v2.2.0
 	dh_gencontrol -ppython3-jsonlines -- -v3.1.0
-	dh_gencontrol -ppython3-prompt-toolkit -- -v3.99.99
 	dh_gencontrol -ppython3-pyrfc3339 -- -v1.1
+	dh_gencontrol -ppython3-prompt-toolkit -- -v3.99.99
+	dh_gencontrol -ppython3-pyroute2 -- -v0.7.9
 	dh_gencontrol -ppython3-digitalocean -- -v1.17.0
 	dh_gencontrol -ppython3-pyyaml -- -v6.0.1
 	dh_gencontrol -ppython3-remote-pdb -- -v2.1.0
