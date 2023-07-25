@@ -12,7 +12,6 @@ import textwrap
 logger = logging.getLogger(__name__)
 
 EXTRA_COMMANDS = [
-    "v/bin/pip install Cython==0.29.36",  # PyYAML build fails with Cython 3.0.0"
 ]
 PIP_TO_DEBIAN_MAPPING = {
     "attrs": "python3-attr",

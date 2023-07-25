@@ -162,6 +162,12 @@ Depends: python3-certifi (>= 2017.4.17), python3-charset-normalizer (<< 4), pyth
 Description: Python-Digitalocean for Python
  Python-Digitalocean is a python-digitalocean library for for Python.
 
+Package: python3-pyyaml
+Architecture: amd64
+Depends: 
+Description: Pyyaml for Python
+ Pyyaml is a PyYAML library for for Python.
+
 Package: python3-remote-pdb
 Architecture: amd64
 Depends: 
