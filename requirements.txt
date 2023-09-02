@@ -1,4 +1,4 @@
-asyncssh==2.13.1
+asyncssh==2.13.2
 google-api-core==1.23.0
 google-api-python-client==1.12.5
 google-auth==1.22.1
