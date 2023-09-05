@@ -12,6 +12,12 @@ Depends: python3-certifi (>= 2017.4.17), python3-cffi (>= 1.12), python3-charset
 Description: Acme for Python
  Acme is a acme library for for Python.
 
+Package: python3-aiohttp
+Architecture: amd64
+Depends: python3-aiosignal (>= 1.1.2), python3-async-timeout (<< 5.0), python3-async-timeout (>= 4.0.0a3), python3-attr (>= 17.3.0), python3-charset-normalizer (<< 4.0), python3-charset-normalizer (>= 2.0), python3-frozenlist (>= 1.1.1), python3-idna (>= 2.0), python3-multidict (<< 7.0), python3-multidict (>= 4.5), python3-yarl (<< 2.0), python3-yarl (>= 1.0)
+Description: Aiohttp for Python
+ Aiohttp is a aiohttp library for for Python.
+
 Package: python3-aiorwlock
 Architecture: amd64
 Depends: 

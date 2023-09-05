@@ -1,4 +1,5 @@
 acme==2.6.0
+aiohttp==3.8.5
 aiorwlock==1.3.0
 asyncssh==2.13.2
 attrs==23.1.0
