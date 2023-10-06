@@ -24,6 +24,7 @@ ipaddr==2.2.0
 jsonlines==3.1.0
 pyRFC3339==1.1
 git+https://github.com/truenas/python-prompt-toolkit.git@84d42cd#egg=prompt-toolkit==3.0.37
+protobuf==4.24.4
 pyroute2==0.7.9
 python-digitalocean==1.17.0
 PyYAML==6.0.1
