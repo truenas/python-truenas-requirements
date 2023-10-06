@@ -162,6 +162,12 @@ Depends: python3-wcwidth
 Description: Prompt-Toolkit for Python
  Prompt-Toolkit is a prompt-toolkit library for for Python.
 
+Package: python3-protobuf
+Architecture: amd64
+Depends: 
+Description: Protobuf for Python
+ Protobuf is a protobuf library for for Python.
+
 Package: python3-pyroute2
 Architecture: amd64
 Depends: 
