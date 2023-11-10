@@ -12,6 +12,7 @@ override_dh_gencontrol:
 	dh_gencontrol -ppython3-acme -- -v2.6.0
 	dh_gencontrol -ppython3-aiohttp -- -v3.8.5
 	dh_gencontrol -ppython3-aiorwlock -- -v1.3.0
+	dh_gencontrol -ppython3-anyio -- -v4.0.0
 	dh_gencontrol -ppython3-asyncssh -- -v2.13.2
 	dh_gencontrol -ppython3-attr -- -v23.1.0
 	dh_gencontrol -ppython3-aws-requests-auth -- -v0.4.3
