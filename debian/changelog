@@ -1,5 +1,5 @@
-python3-truenas-requirements (0.0.0-74) unstable; urgency=medium
+python3-truenas-requirements (0.0.0-75) unstable; urgency=medium
 
   * Initial release (Closes: #1)
 
- -- Vladimir Vinogradenko <vladimirv@ixsystems.com>  Fri,  06 Oct 2023 12:26:13 +0000
+ -- Vladimir Vinogradenko <vladimirv@ixsystems.com>  Fri,  10 Nov 2023 18:00:23 +0000
