@@ -13,6 +13,9 @@ logger = logging.getLogger(__name__)
 
 EXTRA_COMMANDS = [
 ]
+SKIP_NO_BINARY = {
+    "aiohttp-rpc",  # PIP starts downloading `poetry` and other unrelated packages (and fails) if `--no-binary` is used
+}
 PIP_TO_DEBIAN_MAPPING = {
     "attrs": "python3-attr",
     "beautifulsoup4": "python3-bs4",
@@ -101,8 +104,12 @@ def generate_control():
         package_name = pip_to_debian(requirement.package)
 
         depends = []
+        if requirement.package in SKIP_NO_BINARY:
+            binary = ""
+        else:
+            binary = "--no-binary :all:"
         output = subprocess.run(f"v/bin/pip download {requirement.requirement} -c constraints.txt -c requirements.txt "
-                                f"-d /tmp --no-binary :all: -v",
+                                f"-d /tmp {binary} -v",
                                 check=True, stdout=subprocess.PIPE, shell=True, text=True).stdout
         for dependency in re.findall(r"Collecting (.+)", output):
             expressions = dependency.split(",")
