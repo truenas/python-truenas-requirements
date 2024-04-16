@@ -18,6 +18,12 @@ Depends: python3-aiosignal (>= 1.1.2), python3-async-timeout (<< 5.0), python3-a
 Description: Aiohttp for Python
  Aiohttp is a aiohttp library for for Python.
 
+Package: python3-aiohttp-rpc
+Architecture: amd64
+Depends: python3-aiohttp (<< 4), python3-aiohttp (>= 3), python3-aiosignal (>= 1.1.2), python3-async-timeout (<< 5.0), python3-async-timeout (>= 4.0.0a3), python3-attr (>= 17.3.0), python3-charset-normalizer (<< 4.0), python3-charset-normalizer (>= 2.0), python3-frozenlist (>= 1.1.1), python3-idna (>= 2.0), python3-multidict (<< 7.0), python3-multidict (>= 4.5), python3-yarl (<< 2.0), python3-yarl (>= 1.0)
+Description: Aiohttp-Rpc for Python
+ Aiohttp-Rpc is a aiohttp-rpc library for for Python.
+
 Package: python3-aiorwlock
 Architecture: amd64
 Depends: 
@@ -80,7 +86,7 @@ Description: Certbot-Dns-Digitalocean for Python
 
 Package: python3-certbot-dns-google
 Architecture: amd64
-Depends: python3-acme (>= 2.6.0), python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0), python3-certbot (>= 2.6.0), python3-certifi (>= 2017.4.17), python3-cffi (>= 1.12), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2), python3-configargparse (>= 0.9.3), python3-configobj (>= 5.0.6), python3-cryptography (>= 3.2.1), python3-distro (>= 1.0.1), python3-google-api-core (<< 3.0.0.dev0), python3-google-api-core (>= 1.31.5), python3-google-auth (>= 2.16.0), python3-google-auth-httplib2 (>= 0.1.0), python3-googleapi (>= 1.6.5), python3-googleapis-common-protos (<< 2.0.dev0), python3-googleapis-common-protos (>= 1.56.2), python3-httplib2 (<< 1.dev0), python3-httplib2 (>= 0.15.0), python3-idna (<< 4), python3-idna (>= 2.5), python3-josepy (>= 1.13.0), python3-openssl (>= 17.5.0), python3-parsedatetime (>= 2.4), python3-protobuf (<< 5.0.0.dev0), python3-protobuf (>= 3.19.5), python3-pyasn1 (<< 0.6.0), python3-pyasn1 (>= 0.4.6), python3-pyasn1-modules (>= 0.2.1), python3-pycparser, python3-pyparsing (<< 4), python3-pyparsing (>= 2.4.2), python3-pyrfc3339, python3-requests (>= 2.20.0), python3-rsa (<< 5), python3-rsa (>= 3.1.4), python3-setuptools (>= 41.6.0), python3-six (>= 1.9.0), python3-tz (>= 2019.3), python3-uritemplate (<< 5), python3-uritemplate (>= 3.0.1), python3-urllib3 (<< 2.0)
+Depends: python3-acme (>= 2.6.0), python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0), python3-certbot (>= 2.6.0), python3-certifi (>= 2017.4.17), python3-cffi (>= 1.12), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2), python3-configargparse (>= 0.9.3), python3-configobj (>= 5.0.6), python3-cryptography (>= 3.2.1), python3-distro (>= 1.0.1), python3-google-api-core (<< 3.0.0.dev0), python3-google-api-core (>= 1.31.5), python3-google-auth (>= 2.16.0), python3-google-auth-httplib2 (>= 0.1.0), python3-googleapi (>= 1.6.5), python3-googleapis-common-protos (<< 2.0.dev0), python3-googleapis-common-protos (>= 1.56.2), python3-httplib2 (<< 1.dev0), python3-httplib2 (>= 0.15.0), python3-idna (<< 4), python3-idna (>= 2.5), python3-josepy (>= 1.13.0), python3-openssl (>= 17.5.0), python3-parsedatetime (>= 2.4), python3-protobuf (<< 5.0.0.dev0), python3-protobuf (>= 3.19.5), python3-pyasn1 (<< 0.7.0), python3-pyasn1 (>= 0.4.6), python3-pyasn1-modules (>= 0.2.1), python3-pycparser, python3-pyparsing (<< 4), python3-pyparsing (>= 2.4.2), python3-pyrfc3339, python3-requests (>= 2.20.0), python3-rsa (<< 5), python3-rsa (>= 3.1.4), python3-setuptools (>= 41.6.0), python3-six (>= 1.9.0), python3-tz (>= 2019.3), python3-uritemplate (<< 5), python3-uritemplate (>= 3.0.1), python3-urllib3 (<< 2.0)
 Description: Certbot-Dns-Google for Python
  Certbot-Dns-Google is a certbot-dns-google library for for Python.
 
@@ -104,7 +110,7 @@ Description: Container-Runtime-Interface-Api for Python
 
 Package: python3-dns-lexicon
 Architecture: amd64
-Depends: python3-bs4 (>= 4), python3-certifi (>= 2017.4.17), python3-cffi (>= 1.12), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2), python3-cryptography (>= 2), python3-filelock (>= 3.0.8), python3-idna (<< 4), python3-idna (>= 2.5), python3-importlib-metadata (>= 4), python3-pycparser, python3-requests (>= 2), python3-requests-file (>= 1.4), python3-six, python3-soupsieve (>>1.2), python3-tldextract (>= 2), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1), python3-yaml (>= 3), python3-zipp (>= 0.5)
+Depends: python3-bs4 (>= 4), python3-certifi (>= 2017.4.17), python3-cffi (>= 1.12), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2), python3-cryptography (>= 2), python3-filelock (>= 3.0.8), python3-idna (<< 4), python3-idna (>= 2.5), python3-importlib-metadata (>= 4), python3-pycparser, python3-requests (>= 2), python3-requests-file (>= 1.4), python3-soupsieve (>>1.2), python3-tldextract (>= 2), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1), python3-yaml (>= 3), python3-zipp (>= 0.5)
 Description: Dns-Lexicon for Python
  Dns-Lexicon is a dns-lexicon library for for Python.
 
@@ -116,13 +122,13 @@ Description: Google-Api for Python
 
 Package: python3-google-api-core
 Architecture: amd64
-Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0), python3-certifi (>= 2017.4.17), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2), python3-google-auth (<< 3.0.dev0), python3-google-auth (>= 2.14.1), python3-googleapis-common-protos (<< 2.0.dev0), python3-googleapis-common-protos (>= 1.56.2), python3-idna (<< 4), python3-idna (>= 2.5), python3-protobuf (<< 5.0.0.dev0), python3-protobuf (>= 3.19.5), python3-pyasn1 (<< 0.6.0), python3-pyasn1 (>= 0.4.6), python3-pyasn1-modules (>= 0.2.1), python3-requests (<< 3.0.0.dev0), python3-requests (>= 2.18.0), python3-rsa (<< 5), python3-rsa (>= 3.1.4), python3-six (>= 1.9.0), python3-urllib3 (<< 2.0)
+Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0), python3-certifi (>= 2017.4.17), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2), python3-google-auth (<< 3.0.dev0), python3-google-auth (>= 2.14.1), python3-googleapis-common-protos (<< 2.0.dev0), python3-googleapis-common-protos (>= 1.56.2), python3-idna (<< 4), python3-idna (>= 2.5), python3-protobuf (<< 5.0.0.dev0), python3-protobuf (>= 3.19.5), python3-pyasn1 (<< 0.7.0), python3-pyasn1 (>= 0.4.6), python3-pyasn1-modules (>= 0.2.1), python3-requests (<< 3.0.0.dev0), python3-requests (>= 2.18.0), python3-rsa (<< 5), python3-rsa (>= 3.1.4), python3-six (>= 1.9.0), python3-urllib3 (<< 2.0)
 Description: Google-Api-Core for Python
  Google-Api-Core is a google-api-core library for for Python.
 
 Package: python3-googleapi
 Architecture: amd64
-Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0), python3-certifi (>= 2017.4.17), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2), python3-google-api-core (<< 3.0.0.dev0), python3-google-api-core (>= 1.31.5), python3-google-auth (<< 3.0.0.dev0), python3-google-auth (>= 1.19.0), python3-google-auth-httplib2 (>= 0.1.0), python3-googleapis-common-protos (<< 2.0.dev0), python3-googleapis-common-protos (>= 1.56.2), python3-httplib2 (<< 1.dev0), python3-httplib2 (>= 0.15.0), python3-idna (<< 4), python3-idna (>= 2.5), python3-protobuf (<< 5.0.0.dev0), python3-protobuf (>= 3.19.5), python3-pyasn1 (<< 0.6.0), python3-pyasn1 (>= 0.4.6), python3-pyasn1-modules (>= 0.2.1), python3-pyparsing (<< 4), python3-pyparsing (>= 2.4.2), python3-requests (<< 3.0.0.dev0), python3-requests (>= 2.18.0), python3-rsa (<< 5), python3-rsa (>= 3.1.4), python3-six (>= 1.9.0), python3-uritemplate (<< 5), python3-uritemplate (>= 3.0.1), python3-urllib3 (<< 2.0)
+Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0), python3-certifi (>= 2017.4.17), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2), python3-google-api-core (<< 3.0.0.dev0), python3-google-api-core (>= 1.31.5), python3-google-auth (<< 3.0.0.dev0), python3-google-auth (>= 1.19.0), python3-google-auth-httplib2 (>= 0.1.0), python3-googleapis-common-protos (<< 2.0.dev0), python3-googleapis-common-protos (>= 1.56.2), python3-httplib2 (<< 1.dev0), python3-httplib2 (>= 0.15.0), python3-idna (<< 4), python3-idna (>= 2.5), python3-protobuf (<< 5.0.0.dev0), python3-protobuf (>= 3.19.5), python3-pyasn1 (<< 0.7.0), python3-pyasn1 (>= 0.4.6), python3-pyasn1-modules (>= 0.2.1), python3-pyparsing (<< 4), python3-pyparsing (>= 2.4.2), python3-requests (<< 3.0.0.dev0), python3-requests (>= 2.18.0), python3-rsa (<< 5), python3-rsa (>= 3.1.4), python3-six (>= 1.9.0), python3-uritemplate (<< 5), python3-uritemplate (>= 3.0.1), python3-urllib3 (<< 2.0)
 Description: Google-Api-Python-Client for Python
  Google-Api-Python-Client is a google-api-python-client library for for Python.
 
@@ -134,13 +140,13 @@ Description: Googleapis-Common-Protos for Python
 
 Package: python3-google-auth
 Architecture: amd64
-Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0), python3-pyasn1 (<< 0.6.0), python3-pyasn1 (>= 0.4.6), python3-pyasn1-modules (>= 0.2.1), python3-rsa (<< 5), python3-rsa (>= 3.1.4), python3-six (>= 1.9.0), python3-urllib3 (<< 2.0)
+Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0), python3-pyasn1 (<< 0.7.0), python3-pyasn1 (>= 0.4.6), python3-pyasn1-modules (>= 0.2.1), python3-rsa (<< 5), python3-rsa (>= 3.1.4), python3-six (>= 1.9.0), python3-urllib3 (<< 2.0)
 Description: Google-Auth for Python
  Google-Auth is a google-auth library for for Python.
 
 Package: python3-google-auth-httplib2
 Architecture: amd64
-Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0), python3-google-auth, python3-httplib2 (>= 0.15.0), python3-pyasn1 (<< 0.6.0), python3-pyasn1 (>= 0.4.6), python3-pyasn1-modules (>= 0.2.1), python3-pyparsing (<< 4), python3-pyparsing (>= 2.4.2), python3-rsa (<< 5), python3-rsa (>= 3.1.4), python3-six, python3-urllib3 (<< 2.0)
+Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0), python3-google-auth, python3-httplib2 (>= 0.15.0), python3-pyasn1 (<< 0.7.0), python3-pyasn1 (>= 0.4.6), python3-pyasn1-modules (>= 0.2.1), python3-pyparsing (<< 4), python3-pyparsing (>= 2.4.2), python3-rsa (<< 5), python3-rsa (>= 3.1.4), python3-six, python3-urllib3 (<< 2.0)
 Description: Google-Auth-Httplib2 for Python
  Google-Auth-Httplib2 is a google-auth-httplib2 library for for Python.
 
