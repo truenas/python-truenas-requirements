@@ -20,7 +20,7 @@ PIP_TO_DEBIAN_MAPPING = {
     "attrs": "python3-attr",
     "beautifulsoup4": "python3-bs4",
     "google-api-python-client": "python3-googleapi",
-    "PyOpenSSL": "python3-openssl",
+    "pyopenssl": "python3-openssl",
     "pynacl": "python3-nacl",
     "python-dateutil": "python3-dateutil",
     "python-digitalocean": "python3-digitalocean",
@@ -33,7 +33,7 @@ PYTHON_VERSION = f"{sys.version_info.major}.{sys.version_info.minor}"
 
 
 def pip_to_debian(name):
-    return PIP_TO_DEBIAN_MAPPING.get(name, f"python3-{name}").lower()
+    return PIP_TO_DEBIAN_MAPPING.get(name.lower(), f"python3-{name}").lower()
 
 
 def generate_build():
