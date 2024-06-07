@@ -114,12 +114,6 @@ Depends: python3-bs4 (>= 4), python3-certifi (>= 2017.4.17), python3-cffi (>= 1.
 Description: Dns-Lexicon for Python
  Dns-Lexicon is a dns-lexicon library for for Python.
 
-Package: python3-google-api
-Architecture: amd64
-Depends: python3-appier
-Description: Google-Api for Python
- Google-Api is a google-api library for for Python.
-
 Package: python3-google-api-core
 Architecture: amd64
 Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0), python3-certifi (>= 2017.4.17), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2), python3-google-auth (<< 3.0.dev0), python3-google-auth (>= 2.14.1), python3-googleapis-common-protos (<< 2.0.dev0), python3-googleapis-common-protos (>= 1.56.2), python3-idna (<< 4), python3-idna (>= 2.5), python3-protobuf (<< 5.0.0.dev0), python3-protobuf (>= 3.19.5), python3-pyasn1 (<< 0.7.0), python3-pyasn1 (>= 0.4.6), python3-pyasn1-modules (>= 0.2.1), python3-requests (<< 3.0.0.dev0), python3-requests (>= 2.18.0), python3-rsa (<< 5), python3-rsa (>= 3.1.4), python3-six (>= 1.9.0), python3-urllib3 (<< 2.0)
@@ -149,12 +143,6 @@ Architecture: amd64
 Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0), python3-google-auth, python3-httplib2 (>= 0.15.0), python3-pyasn1 (<< 0.7.0), python3-pyasn1 (>= 0.4.6), python3-pyasn1-modules (>= 0.2.1), python3-pyparsing (<< 4), python3-pyparsing (>= 2.4.2), python3-rsa (<< 5), python3-rsa (>= 3.1.4), python3-six, python3-urllib3 (<< 2.0)
 Description: Google-Auth-Httplib2 for Python
  Google-Auth-Httplib2 is a google-auth-httplib2 library for for Python.
-
-Package: python3-ipaddr
-Architecture: amd64
-Depends: 
-Description: Ipaddr for Python
- Ipaddr is a ipaddr library for for Python.
 
 Package: python3-jsonlines
 Architecture: amd64
@@ -192,12 +180,6 @@ Depends: python3-certifi (>= 2017.4.17), python3-charset-normalizer (<< 4), pyth
 Description: Python-Digitalocean for Python
  Python-Digitalocean is a python-digitalocean library for for Python.
 
-Package: python3-pyyaml
-Architecture: amd64
-Depends: 
-Description: Pyyaml for Python
- Pyyaml is a PyYAML library for for Python.
-
 Package: python3-remote-pdb
 Architecture: amd64
 Depends: 
@@ -209,12 +191,6 @@ Architecture: amd64
 Depends: python3-botocore (<< 2.0a.0), python3-botocore (>= 1.12.36), python3-dateutil (<< 3.0.0), python3-dateutil (>= 2.1), python3-jmespath (<< 2.0.0), python3-jmespath (>= 0.7.1), python3-six (>= 1.5), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.25.4)
 Description: S3Transfer for Python
  S3Transfer is a s3transfer library for for Python.
-
-Package: python3-tableprint
-Architecture: amd64
-Depends: python3-future, python3-wcwidth
-Description: Tableprint for Python
- Tableprint is a tableprint library for for Python.
 
 Package: python3-websocket
 Architecture: amd64
