@@ -36,6 +36,12 @@ Depends: python3-idna (>= 2.8), python3-sniffio (>= 1.1)
 Description: Anyio for Python
  Anyio is a anyio library for for Python.
 
+Package: python3-annotated-types
+Architecture: amd64
+Depends: 
+Description: Annotated-Types for Python
+ Annotated-Types is a annotated-types library for for Python.
+
 Package: python3-asyncssh
 Architecture: amd64
 Depends: python3-cffi (>= 1.12), python3-cryptography (>= 3.1), python3-pycparser, python3-typing-extensions (>= 3.6)
@@ -114,6 +120,12 @@ Depends: python3-bs4 (>= 4), python3-certifi (>= 2017.4.17), python3-cffi (>= 1.
 Description: Dns-Lexicon for Python
  Dns-Lexicon is a dns-lexicon library for for Python.
 
+Package: python3-email-validator
+Architecture: amd64
+Depends: python3-dnspython (>= 2.0.0), python3-idna (>= 2.0.0)
+Description: Email-Validator for Python
+ Email-Validator is a email-validator library for for Python.
+
 Package: python3-google-api-core
 Architecture: amd64
 Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0), python3-certifi (>= 2017.4.17), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2), python3-google-auth (<< 3.0.dev0), python3-google-auth (>= 2.14.1), python3-googleapis-common-protos (<< 2.0.dev0), python3-googleapis-common-protos (>= 1.56.2), python3-idna (<< 4), python3-idna (>= 2.5), python3-protobuf (<< 5.0.0.dev0), python3-protobuf (>= 3.19.5), python3-pyasn1 (<< 0.7.0), python3-pyasn1 (>= 0.4.6), python3-pyasn1-modules (>= 0.2.1), python3-requests (<< 3.0.0.dev0), python3-requests (>= 2.18.0), python3-rsa (<< 5), python3-rsa (>= 3.1.4), python3-six (>= 1.9.0), python3-urllib3 (<< 2.0)
@@ -168,6 +180,18 @@ Depends:
 Description: Protobuf for Python
  Protobuf is a protobuf library for for Python.
 
+Package: python3-pydantic
+Architecture: amd64
+Depends: python3-annotated-types (>= 0.4.0), python3-pydantic-core (= 2.18.4), python3-typing-extensions (>= 4.6.1)
+Description: Pydantic for Python
+ Pydantic is a pydantic library for for Python.
+
+Package: python3-pydantic-core
+Architecture: amd64
+Depends: python3-typing-extensions (>= 4.6.0)
+Description: Pydantic-Core for Python
+ Pydantic-Core is a pydantic-core library for for Python.
+
 Package: python3-pyroute2
 Architecture: amd64
 Depends: 
@@ -191,6 +215,12 @@ Architecture: amd64
 Depends: python3-botocore (<< 2.0a.0), python3-botocore (>= 1.12.36), python3-dateutil (<< 3.0.0), python3-dateutil (>= 2.1), python3-jmespath (<< 2.0.0), python3-jmespath (>= 0.7.1), python3-six (>= 1.5), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.25.4)
 Description: S3Transfer for Python
  S3Transfer is a s3transfer library for for Python.
+
+Package: python3-typing-extensions
+Architecture: amd64
+Depends: 
+Description: Typing-Extensions for Python
+ Typing-Extensions is a typing-extensions library for for Python.
 
 Package: python3-websocket
 Architecture: amd64
