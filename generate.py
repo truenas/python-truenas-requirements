@@ -142,7 +142,7 @@ def generate_control():
             Architecture: amd64
             Depends: {', '.join(depends)}
             Description: {requirement.package.title()} for Python
-             {requirement.package.title()} is a {requirement.package} library for for Python.
+             {requirement.package.title()} is a {requirement.package} library for Python.
         """)
 
     with open("debian/control", "w") as f:
