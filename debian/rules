@@ -14,6 +14,7 @@ override_dh_gencontrol:
 	dh_gencontrol -ppython3-aiohttp-rpc -- -v1.3.1
 	dh_gencontrol -ppython3-aiorwlock -- -v1.3.0
 	dh_gencontrol -ppython3-anyio -- -v4.0.0
+	dh_gencontrol -ppython3-annotated-types -- -v0.7.0
 	dh_gencontrol -ppython3-asyncssh -- -v2.13.2
 	dh_gencontrol -ppython3-attr -- -v23.1.0
 	dh_gencontrol -ppython3-aws-requests-auth -- -v0.4.3
@@ -27,6 +28,7 @@ override_dh_gencontrol:
 	dh_gencontrol -ppython3-cloudflare -- -v2.11.6
 	dh_gencontrol -ppython3-container-runtime-interface-api -- -v1.0.0
 	dh_gencontrol -ppython3-dns-lexicon -- -v3.12.0
+	dh_gencontrol -ppython3-email-validator -- -v2.1.2
 	dh_gencontrol -ppython3-google-api-core -- -v2.11.1
 	dh_gencontrol -ppython3-googleapi -- -v2.93.0
 	dh_gencontrol -ppython3-googleapis-common-protos -- -v1.59.1
@@ -36,8 +38,11 @@ override_dh_gencontrol:
 	dh_gencontrol -ppython3-pyrfc3339 -- -v1.1
 	dh_gencontrol -ppython3-prompt-toolkit -- -v3.99.99
 	dh_gencontrol -ppython3-protobuf -- -v4.24.4
+	dh_gencontrol -ppython3-pydantic -- -v2.7.4
+	dh_gencontrol -ppython3-pydantic-core -- -v2.18.4
 	dh_gencontrol -ppython3-pyroute2 -- -v0.7.9
 	dh_gencontrol -ppython3-digitalocean -- -v1.17.0
 	dh_gencontrol -ppython3-remote-pdb -- -v2.1.0
 	dh_gencontrol -ppython3-s3transfer -- -v0.6.1
+	dh_gencontrol -ppython3-typing-extensions -- -v4.12.2
 	dh_gencontrol -ppython3-websocket -- -v1.6.1

@@ -15,6 +15,8 @@ EXTRA_COMMANDS = [
 ]
 SKIP_NO_BINARY = {
     "aiohttp-rpc",  # PIP starts downloading `poetry` and other unrelated packages (and fails) if `--no-binary` is used
+    "pydantic",
+    "pydantic-core",  # Debian bookworm has rustc 1.63.0 while this package requires 1.69 (via toml v0.8.10)
 }
 PIP_TO_DEBIAN_MAPPING = {
     "attrs": "python3-attr",
@@ -122,7 +124,7 @@ def generate_control():
 
             expressions = list(map(
                 lambda e: (re.sub(r"([^0-9])([0-9])", "\\1 \\2", e, 1).replace("< ", "<< ").replace("> ", ">>").
-                           replace("~=", ">=")),
+                           replace("~=", ">=").replace("==", "=")),
                 filter(lambda e: not e.startswith("!="), expressions),
             ))
 
@@ -140,7 +142,7 @@ def generate_control():
             Architecture: amd64
             Depends: {', '.join(depends)}
             Description: {requirement.package.title()} for Python
-             {requirement.package.title()} is a {requirement.package} library for for Python.
+             {requirement.package.title()} is a {requirement.package} library for Python.
         """)
 
     with open("debian/control", "w") as f:
