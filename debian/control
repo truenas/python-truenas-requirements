@@ -120,6 +120,12 @@ Depends: python3-bs4 (>= 4), python3-certifi (>= 2017.4.17), python3-cffi (>= 1.
 Description: Dns-Lexicon for Python
  Dns-Lexicon is a dns-lexicon library for Python.
 
+Package: python3-docker
+Architecture: amd64
+Depends: python3-certifi (>= 2017.4.17), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2), python3-idna (<< 4), python3-idna (>= 2.5), python3-requests (>= 2.26.0), python3-urllib3 (>= 1.26.0), python3-urllib3 (>= 1.26.0)
+Description: Docker for Python
+ Docker is a docker library for Python.
+
 Package: python3-email-validator
 Architecture: amd64
 Depends: python3-dnspython (>= 2.0.0), python3-idna (>= 2.0.0)
