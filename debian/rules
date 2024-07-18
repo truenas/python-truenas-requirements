@@ -28,6 +28,7 @@ override_dh_gencontrol:
 	dh_gencontrol -ppython3-cloudflare -- -v2.11.6
 	dh_gencontrol -ppython3-container-runtime-interface-api -- -v1.0.0
 	dh_gencontrol -ppython3-dns-lexicon -- -v3.12.0
+	dh_gencontrol -ppython3-docker -- -v7.1.0
 	dh_gencontrol -ppython3-email-validator -- -v2.1.2
 	dh_gencontrol -ppython3-google-api-core -- -v2.11.1
 	dh_gencontrol -ppython3-googleapi -- -v2.93.0
