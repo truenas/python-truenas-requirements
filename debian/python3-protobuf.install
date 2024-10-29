@@ -85,6 +85,8 @@ v/lib/python3.11/site-packages/google/protobuf/service_reflection.py usr/lib/pyt
 v/lib/python3.11/site-packages/google/protobuf/source_context_pb2.py usr/lib/python3/dist-packages/google/protobuf
 v/lib/python3.11/site-packages/google/protobuf/struct_pb2.py usr/lib/python3/dist-packages/google/protobuf
 v/lib/python3.11/site-packages/google/protobuf/symbol_database.py usr/lib/python3/dist-packages/google/protobuf
+v/lib/python3.11/site-packages/google/protobuf/testdata/__init__.py usr/lib/python3/dist-packages/google/protobuf/testdata
+v/lib/python3.11/site-packages/google/protobuf/testdata/__pycache__/__init__.cpython-311.pyc usr/lib/python3/dist-packages/google/protobuf/testdata/__pycache__
 v/lib/python3.11/site-packages/google/protobuf/text_encoding.py usr/lib/python3/dist-packages/google/protobuf
 v/lib/python3.11/site-packages/google/protobuf/text_format.py usr/lib/python3/dist-packages/google/protobuf
 v/lib/python3.11/site-packages/google/protobuf/timestamp_pb2.py usr/lib/python3/dist-packages/google/protobuf
@@ -93,8 +95,8 @@ v/lib/python3.11/site-packages/google/protobuf/unknown_fields.py usr/lib/python3
 v/lib/python3.11/site-packages/google/protobuf/util/__init__.py usr/lib/python3/dist-packages/google/protobuf/util
 v/lib/python3.11/site-packages/google/protobuf/util/__pycache__/__init__.cpython-311.pyc usr/lib/python3/dist-packages/google/protobuf/util/__pycache__
 v/lib/python3.11/site-packages/google/protobuf/wrappers_pb2.py usr/lib/python3/dist-packages/google/protobuf
-v/lib/python3.11/site-packages/protobuf-4.24.4.dist-info/INSTALLER usr/lib/python3/dist-packages/protobuf-4.24.4.dist-info
-v/lib/python3.11/site-packages/protobuf-4.24.4.dist-info/LICENSE usr/lib/python3/dist-packages/protobuf-4.24.4.dist-info
-v/lib/python3.11/site-packages/protobuf-4.24.4.dist-info/METADATA usr/lib/python3/dist-packages/protobuf-4.24.4.dist-info
-v/lib/python3.11/site-packages/protobuf-4.24.4.dist-info/RECORD usr/lib/python3/dist-packages/protobuf-4.24.4.dist-info
-v/lib/python3.11/site-packages/protobuf-4.24.4.dist-info/WHEEL usr/lib/python3/dist-packages/protobuf-4.24.4.dist-info
+v/lib/python3.11/site-packages/protobuf-4.25.5.dist-info/INSTALLER usr/lib/python3/dist-packages/protobuf-4.25.5.dist-info
+v/lib/python3.11/site-packages/protobuf-4.25.5.dist-info/LICENSE usr/lib/python3/dist-packages/protobuf-4.25.5.dist-info
+v/lib/python3.11/site-packages/protobuf-4.25.5.dist-info/METADATA usr/lib/python3/dist-packages/protobuf-4.25.5.dist-info
+v/lib/python3.11/site-packages/protobuf-4.25.5.dist-info/RECORD usr/lib/python3/dist-packages/protobuf-4.25.5.dist-info
+v/lib/python3.11/site-packages/protobuf-4.25.5.dist-info/WHEEL usr/lib/python3/dist-packages/protobuf-4.25.5.dist-info

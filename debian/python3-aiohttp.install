@@ -1,9 +1,9 @@
-v/lib/python3.11/site-packages/aiohttp-3.8.5.dist-info/INSTALLER usr/lib/python3/dist-packages/aiohttp-3.8.5.dist-info
-v/lib/python3.11/site-packages/aiohttp-3.8.5.dist-info/LICENSE.txt usr/lib/python3/dist-packages/aiohttp-3.8.5.dist-info
-v/lib/python3.11/site-packages/aiohttp-3.8.5.dist-info/METADATA usr/lib/python3/dist-packages/aiohttp-3.8.5.dist-info
-v/lib/python3.11/site-packages/aiohttp-3.8.5.dist-info/RECORD usr/lib/python3/dist-packages/aiohttp-3.8.5.dist-info
-v/lib/python3.11/site-packages/aiohttp-3.8.5.dist-info/WHEEL usr/lib/python3/dist-packages/aiohttp-3.8.5.dist-info
-v/lib/python3.11/site-packages/aiohttp-3.8.5.dist-info/top_level.txt usr/lib/python3/dist-packages/aiohttp-3.8.5.dist-info
+v/lib/python3.11/site-packages/aiohttp-3.10.10.dist-info/INSTALLER usr/lib/python3/dist-packages/aiohttp-3.10.10.dist-info
+v/lib/python3.11/site-packages/aiohttp-3.10.10.dist-info/LICENSE.txt usr/lib/python3/dist-packages/aiohttp-3.10.10.dist-info
+v/lib/python3.11/site-packages/aiohttp-3.10.10.dist-info/METADATA usr/lib/python3/dist-packages/aiohttp-3.10.10.dist-info
+v/lib/python3.11/site-packages/aiohttp-3.10.10.dist-info/RECORD usr/lib/python3/dist-packages/aiohttp-3.10.10.dist-info
+v/lib/python3.11/site-packages/aiohttp-3.10.10.dist-info/WHEEL usr/lib/python3/dist-packages/aiohttp-3.10.10.dist-info
+v/lib/python3.11/site-packages/aiohttp-3.10.10.dist-info/top_level.txt usr/lib/python3/dist-packages/aiohttp-3.10.10.dist-info
 v/lib/python3.11/site-packages/aiohttp/.hash/_cparser.pxd.hash usr/lib/python3/dist-packages/aiohttp/.hash
 v/lib/python3.11/site-packages/aiohttp/.hash/_find_header.pxd.hash usr/lib/python3/dist-packages/aiohttp/.hash
 v/lib/python3.11/site-packages/aiohttp/.hash/_helpers.pyi.hash usr/lib/python3/dist-packages/aiohttp/.hash
@@ -21,6 +21,7 @@ v/lib/python3.11/site-packages/aiohttp/__pycache__/client_exceptions.cpython-311
 v/lib/python3.11/site-packages/aiohttp/__pycache__/client_proto.cpython-311.pyc usr/lib/python3/dist-packages/aiohttp/__pycache__
 v/lib/python3.11/site-packages/aiohttp/__pycache__/client_reqrep.cpython-311.pyc usr/lib/python3/dist-packages/aiohttp/__pycache__
 v/lib/python3.11/site-packages/aiohttp/__pycache__/client_ws.cpython-311.pyc usr/lib/python3/dist-packages/aiohttp/__pycache__
+v/lib/python3.11/site-packages/aiohttp/__pycache__/compression_utils.cpython-311.pyc usr/lib/python3/dist-packages/aiohttp/__pycache__
 v/lib/python3.11/site-packages/aiohttp/__pycache__/connector.cpython-311.pyc usr/lib/python3/dist-packages/aiohttp/__pycache__
 v/lib/python3.11/site-packages/aiohttp/__pycache__/cookiejar.cpython-311.pyc usr/lib/python3/dist-packages/aiohttp/__pycache__
 v/lib/python3.11/site-packages/aiohttp/__pycache__/formdata.cpython-311.pyc usr/lib/python3/dist-packages/aiohttp/__pycache__
@@ -31,7 +32,6 @@ v/lib/python3.11/site-packages/aiohttp/__pycache__/http_exceptions.cpython-311.p
 v/lib/python3.11/site-packages/aiohttp/__pycache__/http_parser.cpython-311.pyc usr/lib/python3/dist-packages/aiohttp/__pycache__
 v/lib/python3.11/site-packages/aiohttp/__pycache__/http_websocket.cpython-311.pyc usr/lib/python3/dist-packages/aiohttp/__pycache__
 v/lib/python3.11/site-packages/aiohttp/__pycache__/http_writer.cpython-311.pyc usr/lib/python3/dist-packages/aiohttp/__pycache__
-v/lib/python3.11/site-packages/aiohttp/__pycache__/locks.cpython-311.pyc usr/lib/python3/dist-packages/aiohttp/__pycache__
 v/lib/python3.11/site-packages/aiohttp/__pycache__/log.cpython-311.pyc usr/lib/python3/dist-packages/aiohttp/__pycache__
 v/lib/python3.11/site-packages/aiohttp/__pycache__/multipart.cpython-311.pyc usr/lib/python3/dist-packages/aiohttp/__pycache__
 v/lib/python3.11/site-packages/aiohttp/__pycache__/payload.cpython-311.pyc usr/lib/python3/dist-packages/aiohttp/__pycache__
@@ -77,6 +77,7 @@ v/lib/python3.11/site-packages/aiohttp/client_exceptions.py usr/lib/python3/dist
 v/lib/python3.11/site-packages/aiohttp/client_proto.py usr/lib/python3/dist-packages/aiohttp
 v/lib/python3.11/site-packages/aiohttp/client_reqrep.py usr/lib/python3/dist-packages/aiohttp
 v/lib/python3.11/site-packages/aiohttp/client_ws.py usr/lib/python3/dist-packages/aiohttp
+v/lib/python3.11/site-packages/aiohttp/compression_utils.py usr/lib/python3/dist-packages/aiohttp
 v/lib/python3.11/site-packages/aiohttp/connector.py usr/lib/python3/dist-packages/aiohttp
 v/lib/python3.11/site-packages/aiohttp/cookiejar.py usr/lib/python3/dist-packages/aiohttp
 v/lib/python3.11/site-packages/aiohttp/formdata.py usr/lib/python3/dist-packages/aiohttp
@@ -87,7 +88,6 @@ v/lib/python3.11/site-packages/aiohttp/http_exceptions.py usr/lib/python3/dist-p
 v/lib/python3.11/site-packages/aiohttp/http_parser.py usr/lib/python3/dist-packages/aiohttp
 v/lib/python3.11/site-packages/aiohttp/http_websocket.py usr/lib/python3/dist-packages/aiohttp
 v/lib/python3.11/site-packages/aiohttp/http_writer.py usr/lib/python3/dist-packages/aiohttp
-v/lib/python3.11/site-packages/aiohttp/locks.py usr/lib/python3/dist-packages/aiohttp
 v/lib/python3.11/site-packages/aiohttp/log.py usr/lib/python3/dist-packages/aiohttp
 v/lib/python3.11/site-packages/aiohttp/multipart.py usr/lib/python3/dist-packages/aiohttp
 v/lib/python3.11/site-packages/aiohttp/payload.py usr/lib/python3/dist-packages/aiohttp
