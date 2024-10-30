@@ -6,7 +6,7 @@ v/lib/python3.11/site-packages/pydantic_core-2.18.4.dist-info/license_files/LICE
 v/lib/python3.11/site-packages/pydantic_core/__init__.py usr/lib/python3/dist-packages/pydantic_core
 v/lib/python3.11/site-packages/pydantic_core/__pycache__/__init__.cpython-311.pyc usr/lib/python3/dist-packages/pydantic_core/__pycache__
 v/lib/python3.11/site-packages/pydantic_core/__pycache__/core_schema.cpython-311.pyc usr/lib/python3/dist-packages/pydantic_core/__pycache__
-v/lib/python3.11/site-packages/pydantic_core/_pydantic_core.cpython-311-aarch64-linux-gnu.so usr/lib/python3/dist-packages/pydantic_core
+v/lib/python3.11/site-packages/pydantic_core/_pydantic_core.cpython-311-x86_64-linux-gnu.so usr/lib/python3/dist-packages/pydantic_core
 v/lib/python3.11/site-packages/pydantic_core/_pydantic_core.pyi usr/lib/python3/dist-packages/pydantic_core
 v/lib/python3.11/site-packages/pydantic_core/core_schema.py usr/lib/python3/dist-packages/pydantic_core
 v/lib/python3.11/site-packages/pydantic_core/py.typed usr/lib/python3/dist-packages/pydantic_core
