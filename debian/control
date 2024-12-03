@@ -114,11 +114,11 @@ Depends: python3-attr (>= 19.2.0), python3-certifi (>= 2017.4.17), python3-chars
 Description: Cloudflare for Python
  Cloudflare is a cloudflare library for Python.
 
-Package: python3-container-runtime-interface-api
+Package: python3-cryptography
 Architecture: amd64
-Depends: python3-grpcio (>= 1.39), python3-protobuf (>= 4.2)
-Description: Container-Runtime-Interface-Api for Python
- Container-Runtime-Interface-Api is a container-runtime-interface-api library for Python.
+Depends: python3-cffi (>= 1.12), python3-pycparser
+Description: Cryptography for Python
+ Cryptography is a cryptography library for Python.
 
 Package: python3-dns-lexicon
 Architecture: amd64
@@ -135,8 +135,8 @@ Description: Docker for Python
 Package: python3-email-validator
 Architecture: amd64
 Depends: python3-dnspython (>= 2.0.0), python3-idna (>= 2.0.0)
-Description: Email-Validator for Python
- Email-Validator is a email-validator library for Python.
+Description: Email_Validator for Python
+ Email_Validator is a email_validator library for Python.
 
 Package: python3-google-api-core
 Architecture: amd64
@@ -213,8 +213,8 @@ Description: Pydantic for Python
 Package: python3-pydantic-core
 Architecture: amd64
 Depends: python3-typing-extensions (>= 4.6.0)
-Description: Pydantic-Core for Python
- Pydantic-Core is a pydantic-core library for Python.
+Description: Pydantic_Core for Python
+ Pydantic_Core is a pydantic_core library for Python.
 
 Package: python3-pyroute2
 Architecture: amd64
@@ -243,8 +243,8 @@ Description: S3Transfer for Python
 Package: python3-typing-extensions
 Architecture: amd64
 Depends: 
-Description: Typing-Extensions for Python
- Typing-Extensions is a typing-extensions library for Python.
+Description: Typing_Extensions for Python
+ Typing_Extensions is a typing_extensions library for Python.
 
 Package: python3-yarl
 Architecture: amd64
