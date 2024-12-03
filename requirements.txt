@@ -26,6 +26,7 @@ googleapis-common-protos==1.65.0
 google-auth==2.35.0
 google-auth-httplib2==0.2.0
 jsonlines==4.0.0
+pyOpenSSL==24.3.0
 pyRFC3339==1.1
 git+https://github.com/truenas/python-prompt-toolkit.git@84d42cd#egg=prompt-toolkit==3.0.37
 propcache==0.2.0
