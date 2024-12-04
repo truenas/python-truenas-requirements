@@ -27,7 +27,7 @@ override_dh_gencontrol:
 	dh_gencontrol -ppython3-certbot-dns-google -- -v2.6.0
 	dh_gencontrol -ppython3-certbot-dns-ovh -- -v2.6.0
 	dh_gencontrol -ppython3-cloudflare -- -v2.19.0
-	dh_gencontrol -ppython3-cryptography -- -v44.0.0
+	dh_gencontrol -ppython3-cryptography -- -v43.0.3
 	dh_gencontrol -ppython3-dns-lexicon -- -v3.18.0
 	dh_gencontrol -ppython3-docker -- -v7.1.0
 	dh_gencontrol -ppython3-email-validator -- -v2.2.0

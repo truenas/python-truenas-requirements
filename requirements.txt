@@ -16,7 +16,7 @@ certbot-dns-digitalocean==2.6.0
 certbot-dns-google==2.6.0
 certbot-dns-ovh==2.6.0
 cloudflare==2.19.0
-cryptography==44.0.0
+cryptography==43.0.3
 dns-lexicon==3.18.0
 docker==7.1.0
 email_validator==2.2.0
