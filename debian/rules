@@ -37,6 +37,7 @@ override_dh_gencontrol:
 	dh_gencontrol -ppython3-google-auth -- -v2.35.0
 	dh_gencontrol -ppython3-google-auth-httplib2 -- -v0.2.0
 	dh_gencontrol -ppython3-jsonlines -- -v4.0.0
+	dh_gencontrol -ppython3-paramiko -- -v3.5.0
 	dh_gencontrol -ppython3-openssl -- -v24.3.0
 	dh_gencontrol -ppython3-pyrfc3339 -- -v1.1
 	dh_gencontrol -ppython3-prompt-toolkit -- -v3.99.99
