@@ -1,2 +1,3 @@
 #!/bin/sh
+docker pull debian:bookworm
 docker run --rm -v $(pwd):/work -w /work debian:bookworm sh -c 'apt-get update && apt-get install -y git libffi-dev python3-virtualenv && python3 generate.py'
