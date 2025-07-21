@@ -36,6 +36,12 @@ Depends:
 Description: Aiorwlock for Python
  Aiorwlock is a aiorwlock library for Python.
 
+Package: python3-aiosignal
+Architecture: amd64
+Depends: python3-frozenlist (>= 1.1.0), python3-typing-extensions (>= 4.2)
+Description: Aiosignal for Python
+ Aiosignal is a aiosignal library for Python.
+
 Package: python3-anyio
 Architecture: amd64
 Depends: python3-idna (>= 2.8), python3-sniffio (>= 1.1)
