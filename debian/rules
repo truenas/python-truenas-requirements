@@ -10,10 +10,11 @@ override_dh_auto_build:
 override_dh_gencontrol:
 	dh_gencontrol
 	dh_gencontrol -ppython3-acme -- -v2.11.0
-	dh_gencontrol -ppython3-aiohappyeyeballs -- -v2.4.3
-	dh_gencontrol -ppython3-aiohttp -- -v3.10.10
+	dh_gencontrol -ppython3-aiohappyeyeballs -- -v2.6.1
+	dh_gencontrol -ppython3-aiohttp -- -v3.12.14
 	dh_gencontrol -ppython3-aiohttp-rpc -- -v1.3.2
 	dh_gencontrol -ppython3-aiorwlock -- -v1.4.0
+	dh_gencontrol -ppython3-aiosignal -- -v1.4.0
 	dh_gencontrol -ppython3-anyio -- -v4.6.2.post1
 	dh_gencontrol -ppython3-annotated-types -- -v0.7.0
 	dh_gencontrol -ppython3-asyncssh -- -v2.18.0
