@@ -9,7 +9,7 @@ override_dh_auto_build:
 
 override_dh_gencontrol:
 	dh_gencontrol
-	dh_gencontrol -ppython3-acme -- -v2.11.0
+	dh_gencontrol -ppython3-acme -- -v3.0.0
 	dh_gencontrol -ppython3-aiohappyeyeballs -- -v2.6.1
 	dh_gencontrol -ppython3-aiohttp -- -v3.12.14
 	dh_gencontrol -ppython3-aiohttp-rpc -- -v1.3.2
@@ -22,13 +22,13 @@ override_dh_gencontrol:
 	dh_gencontrol -ppython3-aws-requests-auth -- -v0.4.3
 	dh_gencontrol -ppython3-boto3 -- -v1.35.49
 	dh_gencontrol -ppython3-botocore -- -v1.35.49
-	dh_gencontrol -ppython3-certbot -- -v2.6.0
-	dh_gencontrol -ppython3-certbot-dns-cloudflare -- -v2.6.0
-	dh_gencontrol -ppython3-certbot-dns-digitalocean -- -v2.6.0
-	dh_gencontrol -ppython3-certbot-dns-google -- -v2.6.0
-	dh_gencontrol -ppython3-certbot-dns-ovh -- -v2.6.0
+	dh_gencontrol -ppython3-certbot -- -v3.0.0
+	dh_gencontrol -ppython3-certbot-dns-cloudflare -- -v3.0.0
+	dh_gencontrol -ppython3-certbot-dns-digitalocean -- -v3.0.0
+	dh_gencontrol -ppython3-certbot-dns-google -- -v3.0.0
+	dh_gencontrol -ppython3-certbot-dns-ovh -- -v3.0.0
 	dh_gencontrol -ppython3-cloudflare -- -v2.19.0
-	dh_gencontrol -ppython3-cryptography -- -v43.0.3
+	dh_gencontrol -ppython3-cryptography -- -v45.0.6
 	dh_gencontrol -ppython3-dns-lexicon -- -v3.18.0
 	dh_gencontrol -ppython3-docker -- -v7.1.0
 	dh_gencontrol -ppython3-email-validator -- -v2.2.0
@@ -39,12 +39,12 @@ override_dh_gencontrol:
 	dh_gencontrol -ppython3-google-auth-httplib2 -- -v0.2.0
 	dh_gencontrol -ppython3-jsonlines -- -v4.0.0
 	dh_gencontrol -ppython3-paramiko -- -v3.5.0
-	dh_gencontrol -ppython3-openssl -- -v24.3.0
+	dh_gencontrol -ppython3-openssl -- -v25.1.0
 	dh_gencontrol -ppython3-pyrfc3339 -- -v1.1
 	dh_gencontrol -ppython3-prompt-toolkit -- -v3.99.99
 	dh_gencontrol -ppython3-propcache -- -v0.2.0
 	dh_gencontrol -ppython3-proto-plus -- -v1.25.0
-	dh_gencontrol -ppython3-protobuf -- -v4.25.5
+	dh_gencontrol -ppython3-protobuf -- -v5.29.2
 	dh_gencontrol -ppython3-pydantic -- -v2.9.2
 	dh_gencontrol -ppython3-pydantic-core -- -v2.23.4
 	dh_gencontrol -ppython3-pyroute2 -- -v0.7.12
