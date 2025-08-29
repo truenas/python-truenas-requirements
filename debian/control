@@ -8,7 +8,7 @@ Homepage: https://truenas.com
 
 Package: python3-acme
 Architecture: amd64
-Depends: python3-certifi (>= 2017.4.17 (from requests>=2.20.0->acme=3.0.0)), python3-cffi (>= 1.14 (from cryptography>=3.2.1->acme=3.0.0)), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2 (from requests>=2.20.0->acme=3.0.0)), python3-cryptography (>= 3.2.1 (from acme=3.0.0)), python3-idna (<< 4), python3-idna (>= 2.5 (from requests>=2.20.0->acme=3.0.0)), python3-josepy (<< 2), python3-josepy (>= 1.13.0 (from acme=3.0.0)), python3-openssl (>= 17.5.0 (from acme=3.0.0)), python3-pycparser ( (from cffi>= 1.14->cryptography>=3.2.1->acme=3.0.0)), python3-pyrfc3339 ( (from acme= 3.0.0)), python3-requests (>= 2.20.0 (from acme=3.0.0)), python3-setuptools (>= 41.6.0 (from acme=3.0.0)), python3-tz (>= 2019.3 (from acme=3.0.0)), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1 (from requests>=2.20.0->acme=3.0.0))
+Depends: python3-certifi (>= 2017.4.17 ), python3-cffi (>= 1.14 ), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2 ), python3-cryptography (>= 3.2.1 ), python3-idna (<< 4), python3-idna (>= 2.5 ), python3-josepy (<< 2), python3-josepy (>= 1.13.0 ), python3-openssl (>= 17.5.0 ), python3-pycparser ( ), python3-pyrfc3339 ( ), python3-requests (>= 2.20.0 ), python3-setuptools (>= 41.6.0 ), python3-tz (>= 2019.3 ), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1 )
 Description: Acme for Python
  Acme is a acme library for Python.
 
@@ -20,13 +20,13 @@ Description: Aiohappyeyeballs for Python
 
 Package: python3-aiohttp
 Architecture: amd64
-Depends: python3-aiohappyeyeballs (>= 2.5.0 (from aiohttp=3.12.14)), python3-aiosignal (>= 1.4.0 (from aiohttp=3.12.14)), python3-attr (>= 17.3.0 (from aiohttp=3.12.14)), python3-frozenlist (>= 1.1.1 (from aiohttp=3.12.14)), python3-idna (>= 1.17.0->aiohttp=3.12.14)), python3-idna (>= 2.0 (from yarl<2.0), python3-multidict (<< 7.0), python3-multidict (>= 4.5 (from aiohttp=3.12.14)), python3-propcache (>= 0.2.0 (from aiohttp=3.12.14)), python3-yarl (<< 2.0), python3-yarl (>= 1.17.0 (from aiohttp=3.12.14))
+Depends: python3-aiohappyeyeballs (>= 2.5.0 ), python3-aiosignal (>= 1.4.0 ), python3-attr (>= 17.3.0 ), python3-frozenlist (>= 1.1.1 ), python3-idna (>= 1.17.0->aiohttp=3.12.14)), python3-idna (>= 2.0 , python3-multidict (<< 7.0), python3-multidict (>= 4.5 ), python3-propcache (>= 0.2.0 ), python3-yarl (<< 2.0), python3-yarl (>= 1.17.0 )
 Description: Aiohttp for Python
  Aiohttp is a aiohttp library for Python.
 
 Package: python3-aiohttp-rpc
 Architecture: amd64
-Depends: python3-aiohappyeyeballs (>= 2.5.0 (from aiohttp<4), python3-aiohappyeyeballs (>= 3->aiohttp-rpc=1.3.2)), python3-aiohttp (<< 4), python3-aiohttp (>= 3 (from aiohttp-rpc=1.3.2)), python3-aiosignal (>= 1.4.0 (from aiohttp<4), python3-aiosignal (>= 3->aiohttp-rpc=1.3.2)), python3-attr (>= 17.3.0 (from aiohttp<4), python3-attr (>= 3->aiohttp-rpc=1.3.2)), python3-frozenlist (>= 1.1.1 (from aiohttp<4), python3-frozenlist (>= 3->aiohttp-rpc=1.3.2)), python3-idna (>= 1.17.0->aiohttp<4), python3-idna (>= 2.0 (from yarl<2.0), python3-idna (>= 3->aiohttp-rpc=1.3.2)), python3-multidict (<< 7.0), python3-multidict (>= 3->aiohttp-rpc=1.3.2)), python3-multidict (>= 4.5 (from aiohttp<4), python3-propcache (>= 0.2.0 (from aiohttp<4), python3-propcache (>= 3->aiohttp-rpc=1.3.2)), python3-yarl (<< 2.0), python3-yarl (>= 1.17.0 (from aiohttp<4), python3-yarl (>= 3->aiohttp-rpc=1.3.2))
+Depends: python3-aiohappyeyeballs (>= 2.5.0 , python3-aiohappyeyeballs (>= 3->aiohttp-rpc=1.3.2)), python3-aiohttp (<< 4), python3-aiohttp (>= 3 ), python3-aiosignal (>= 1.4.0 , python3-aiosignal (>= 3->aiohttp-rpc=1.3.2)), python3-attr (>= 17.3.0 , python3-attr (>= 3->aiohttp-rpc=1.3.2)), python3-frozenlist (>= 1.1.1 , python3-frozenlist (>= 3->aiohttp-rpc=1.3.2)), python3-idna (>= 1.17.0->aiohttp<4), python3-idna (>= 2.0 , python3-idna (>= 3->aiohttp-rpc=1.3.2)), python3-multidict (<< 7.0), python3-multidict (>= 3->aiohttp-rpc=1.3.2)), python3-multidict (>= 4.5 , python3-propcache (>= 0.2.0 , python3-propcache (>= 3->aiohttp-rpc=1.3.2)), python3-yarl (<< 2.0), python3-yarl (>= 1.17.0 , python3-yarl (>= 3->aiohttp-rpc=1.3.2))
 Description: Aiohttp-Rpc for Python
  Aiohttp-Rpc is a aiohttp-rpc library for Python.
 
@@ -38,13 +38,13 @@ Description: Aiorwlock for Python
 
 Package: python3-aiosignal
 Architecture: amd64
-Depends: python3-frozenlist (>= 1.1.0 (from aiosignal=1.4.0))
+Depends: python3-frozenlist (>= 1.1.0 )
 Description: Aiosignal for Python
  Aiosignal is a aiosignal library for Python.
 
 Package: python3-anyio
 Architecture: amd64
-Depends: python3-idna (>= 2.8 (from anyio=4.6.2.post1)), python3-sniffio (>= 1.1 (from anyio=4.6.2.post1))
+Depends: python3-idna (>= 2.8 ), python3-sniffio (>= 1.1 )
 Description: Anyio for Python
  Anyio is a anyio library for Python.
 
@@ -56,7 +56,7 @@ Description: Annotated-Types for Python
 
 Package: python3-asyncssh
 Architecture: amd64
-Depends: python3-cffi (>= 1.14 (from cryptography>=39.0->asyncssh=2.18.0)), python3-cryptography (>= 39.0 (from asyncssh=2.18.0)), python3-pycparser ( (from cffi>= 1.14->cryptography>=39.0->asyncssh=2.18.0)), python3-typing-extensions (>= 4.0.0 (from asyncssh=2.18.0))
+Depends: python3-cffi (>= 1.14 ), python3-cryptography (>= 39.0 ), python3-pycparser ( ), python3-typing-extensions (>= 4.0.0 )
 Description: Asyncssh for Python
  Asyncssh is a asyncssh library for Python.
 
@@ -68,139 +68,139 @@ Description: Attrs for Python
 
 Package: python3-aws-requests-auth
 Architecture: amd64
-Depends: python3-certifi (>= 2017.4.17 (from requests>=0.14.0->aws-requests-auth=0.4.3)), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2 (from requests>=0.14.0->aws-requests-auth=0.4.3)), python3-idna (<< 4), python3-idna (>= 2.5 (from requests>=0.14.0->aws-requests-auth=0.4.3)), python3-requests (>= 0.14.0 (from aws-requests-auth=0.4.3)), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1 (from requests>=0.14.0->aws-requests-auth=0.4.3))
+Depends: python3-certifi (>= 2017.4.17 ), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2 ), python3-idna (<< 4), python3-idna (>= 2.5 ), python3-requests (>= 0.14.0 ), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1 )
 Description: Aws-Requests-Auth for Python
  Aws-Requests-Auth is a aws-requests-auth library for Python.
 
 Package: python3-boto3
 Architecture: amd64
-Depends: python3-botocore (<< 1.36.0), python3-botocore (>= 1.35.49 (from boto3=1.35.49)), python3-dateutil (<< 3.0.0), python3-dateutil (>= 1.35.49->boto3=1.35.49)), python3-dateutil (>= 2.1 (from botocore<1.36.0), python3-jmespath (<< 2.0.0), python3-jmespath (>= 0.7.1 (from boto3=1.35.49)), python3-s3transfer (<< 0.11.0), python3-s3transfer (>= 0.10.0 (from boto3=1.35.49)), python3-six (>= 1.35.49->boto3=1.35.49)), python3-six (>= 1.5 (from python-dateutil<3.0.0), python3-six (>= 2.1->botocore<1.36.0), python3-urllib3 (<< 3), python3-urllib3 (>= 1.25.4 (from botocore<1.36.0), python3-urllib3 (>= 1.35.49->boto3=1.35.49))
+Depends: python3-botocore (<< 1.36.0), python3-botocore (>= 1.35.49 ), python3-dateutil (<< 3.0.0), python3-dateutil (>= 1.35.49->boto3=1.35.49)), python3-dateutil (>= 2.1 , python3-jmespath (<< 2.0.0), python3-jmespath (>= 0.7.1 ), python3-s3transfer (<< 0.11.0), python3-s3transfer (>= 0.10.0 ), python3-six (>= 1.35.49->boto3=1.35.49)), python3-six (>= 1.5 , python3-six (>= 2.1->botocore<1.36.0), python3-urllib3 (<< 3), python3-urllib3 (>= 1.25.4 , python3-urllib3 (>= 1.35.49->boto3=1.35.49))
 Description: Boto3 for Python
  Boto3 is a boto3 library for Python.
 
 Package: python3-botocore
 Architecture: amd64
-Depends: python3-dateutil (<< 3.0.0), python3-dateutil (>= 2.1 (from botocore=1.35.49)), python3-jmespath (<< 2.0.0), python3-jmespath (>= 0.7.1 (from botocore=1.35.49)), python3-six (>= 1.5 (from python-dateutil<3.0.0), python3-six (>= 2.1->botocore=1.35.49)), python3-urllib3 (<< 3), python3-urllib3 (>= 1.25.4 (from botocore=1.35.49))
+Depends: python3-dateutil (<< 3.0.0), python3-dateutil (>= 2.1 ), python3-jmespath (<< 2.0.0), python3-jmespath (>= 0.7.1 ), python3-six (>= 1.5 , python3-six (>= 2.1->botocore=1.35.49)), python3-urllib3 (<< 3), python3-urllib3 (>= 1.25.4 )
 Description: Botocore for Python
  Botocore is a botocore library for Python.
 
 Package: python3-certbot
 Architecture: amd64
-Depends: python3-acme (>= 3.0.0 (from certbot=3.0.0)), python3-certifi (>= 2017.4.17 (from requests>=2.20.0->acme>=3.0.0->certbot=3.0.0)), python3-cffi (>= 1.14 (from cryptography>=3.2.1->certbot=3.0.0)), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2 (from requests>=2.20.0->acme>=3.0.0->certbot=3.0.0)), python3-configargparse (>= 1.5.3 (from certbot=3.0.0)), python3-configobj (>= 5.0.6 (from certbot=3.0.0)), python3-cryptography (>= 3.2.1 (from certbot=3.0.0)), python3-distro (>= 1.0.1 (from certbot=3.0.0)), python3-idna (<< 4), python3-idna (>= 2.5 (from requests>=2.20.0->acme>=3.0.0->certbot=3.0.0)), python3-josepy (<< 2), python3-josepy (>= 1.13.0 (from certbot=3.0.0)), python3-openssl (>= 0.13 (from josepy<2), python3-openssl (>= 1.13.0->certbot=3.0.0)), python3-parsedatetime (>= 2.4 (from certbot=3.0.0)), python3-pycparser ( (from cffi>= 1.14->cryptography>=3.2.1->certbot=3.0.0)), python3-pyrfc3339 ( (from certbot= 3.0.0)), python3-requests (>= 2.20.0 (from acme>=3.0.0->certbot=3.0.0)), python3-setuptools (>= 41.6.0 (from certbot=3.0.0)), python3-tz (>= 2019.3 (from certbot=3.0.0)), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1 (from requests>=2.20.0->acme>=3.0.0->certbot=3.0.0))
+Depends: python3-acme (>= 3.0.0 ), python3-certifi (>= 2017.4.17 ), python3-cffi (>= 1.14 ), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2 ), python3-configargparse (>= 1.5.3 ), python3-configobj (>= 5.0.6 ), python3-cryptography (>= 3.2.1 ), python3-distro (>= 1.0.1 ), python3-idna (<< 4), python3-idna (>= 2.5 ), python3-josepy (<< 2), python3-josepy (>= 1.13.0 ), python3-openssl (>= 0.13 , python3-openssl (>= 1.13.0->certbot=3.0.0)), python3-parsedatetime (>= 2.4 ), python3-pycparser ( ), python3-pyrfc3339 ( ), python3-requests (>= 2.20.0 ), python3-setuptools (>= 41.6.0 ), python3-tz (>= 2019.3 ), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1 )
 Description: Certbot for Python
  Certbot is a certbot library for Python.
 
 Package: python3-certbot-dns-cloudflare
 Architecture: amd64
-Depends: python3-acme (>= 3.0.0 (from certbot-dns-cloudflare=3.0.0)), python3-attr (>= 1.5.1->certbot-dns-cloudflare=3.0.0)), python3-attr (>= 19.2.0 (from jsonlines->cloudflare<2.20), python3-certbot (>= 3.0.0 (from certbot-dns-cloudflare=3.0.0)), python3-certifi (>= 1.5.1->certbot-dns-cloudflare=3.0.0)), python3-certifi (>= 2017.4.17 (from requests->cloudflare<2.20), python3-cffi (>= 1.14 (from cryptography>=3.2.1->acme>=3.0.0->certbot-dns-cloudflare=3.0.0)), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 1.5.1->certbot-dns-cloudflare=3.0.0)), python3-charset-normalizer (>= 2 (from requests->cloudflare<2.20), python3-cloudflare (<< 2.20), python3-cloudflare (>= 1.5.1 (from certbot-dns-cloudflare=3.0.0)), python3-configargparse (>= 1.5.3 (from certbot>=3.0.0->certbot-dns-cloudflare=3.0.0)), python3-configobj (>= 5.0.6 (from certbot>=3.0.0->certbot-dns-cloudflare=3.0.0)), python3-cryptography (>= 3.2.1 (from acme>=3.0.0->certbot-dns-cloudflare=3.0.0)), python3-distro (>= 1.0.1 (from certbot>=3.0.0->certbot-dns-cloudflare=3.0.0)), python3-idna (<< 4), python3-idna (>= 1.5.1->certbot-dns-cloudflare=3.0.0)), python3-idna (>= 2.5 (from requests->cloudflare<2.20), python3-josepy (<< 2), python3-josepy (>= 1.13.0 (from acme>=3.0.0->certbot-dns-cloudflare=3.0.0)), python3-jsonlines ( (from cloudflare<< 2.20), python3-jsonlines (>= 1.5.1->certbot-dns-cloudflare=3.0.0)), python3-openssl (>= 17.5.0 (from acme>=3.0.0->certbot-dns-cloudflare=3.0.0)), python3-parsedatetime (>= 2.4 (from certbot>=3.0.0->certbot-dns-cloudflare=3.0.0)), python3-pycparser ( (from cffi>= 1.14->cryptography>=3.2.1->acme>=3.0.0->certbot-dns-cloudflare=3.0.0)), python3-pyrfc3339 ( (from acme>= 3.0.0->certbot-dns-cloudflare=3.0.0)), python3-requests ( (from cloudflare<< 2.20), python3-requests (>= 1.5.1->certbot-dns-cloudflare=3.0.0)), python3-setuptools (>= 41.6.0 (from certbot-dns-cloudflare=3.0.0)), python3-tz (>= 2019.3 (from acme>=3.0.0->certbot-dns-cloudflare=3.0.0)), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1 (from requests->cloudflare<2.20), python3-urllib3 (>= 1.5.1->certbot-dns-cloudflare=3.0.0)), python3-yaml ( (from cloudflare<< 2.20), python3-yaml (>= 1.5.1->certbot-dns-cloudflare=3.0.0))
+Depends: python3-acme (>= 3.0.0 ), python3-attr (>= 1.5.1->certbot-dns-cloudflare=3.0.0)), python3-attr (>= 19.2.0 , python3-certbot (>= 3.0.0 ), python3-certifi (>= 1.5.1->certbot-dns-cloudflare=3.0.0)), python3-certifi (>= 2017.4.17 , python3-cffi (>= 1.14 ), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 1.5.1->certbot-dns-cloudflare=3.0.0)), python3-charset-normalizer (>= 2 , python3-cloudflare (<< 2.20), python3-cloudflare (>= 1.5.1 ), python3-configargparse (>= 1.5.3 ), python3-configobj (>= 5.0.6 ), python3-cryptography (>= 3.2.1 ), python3-distro (>= 1.0.1 ), python3-idna (<< 4), python3-idna (>= 1.5.1->certbot-dns-cloudflare=3.0.0)), python3-idna (>= 2.5 , python3-josepy (<< 2), python3-josepy (>= 1.13.0 ), python3-jsonlines ( , python3-jsonlines (>= 1.5.1->certbot-dns-cloudflare=3.0.0)), python3-openssl (>= 17.5.0 ), python3-parsedatetime (>= 2.4 ), python3-pycparser ( ), python3-pyrfc3339 ( ), python3-requests ( , python3-requests (>= 1.5.1->certbot-dns-cloudflare=3.0.0)), python3-setuptools (>= 41.6.0 ), python3-tz (>= 2019.3 ), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1 , python3-urllib3 (>= 1.5.1->certbot-dns-cloudflare=3.0.0)), python3-yaml ( , python3-yaml (>= 1.5.1->certbot-dns-cloudflare=3.0.0))
 Description: Certbot-Dns-Cloudflare for Python
  Certbot-Dns-Cloudflare is a certbot-dns-cloudflare library for Python.
 
 Package: python3-certbot-dns-digitalocean
 Architecture: amd64
-Depends: python3-acme (>= 3.0.0 (from certbot-dns-digitalocean=3.0.0)), python3-certbot (>= 3.0.0 (from certbot-dns-digitalocean=3.0.0)), python3-certifi (>= 2017.4.17 (from requests>=2.20.0->acme>=3.0.0->certbot-dns-digitalocean=3.0.0)), python3-cffi (>= 1.14 (from cryptography>=3.2.1->acme>=3.0.0->certbot-dns-digitalocean=3.0.0)), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2 (from requests>=2.20.0->acme>=3.0.0->certbot-dns-digitalocean=3.0.0)), python3-configargparse (>= 1.5.3 (from certbot>=3.0.0->certbot-dns-digitalocean=3.0.0)), python3-configobj (>= 5.0.6 (from certbot>=3.0.0->certbot-dns-digitalocean=3.0.0)), python3-cryptography (>= 3.2.1 (from acme>=3.0.0->certbot-dns-digitalocean=3.0.0)), python3-digitalocean (>= 1.11 (from certbot-dns-digitalocean=3.0.0)), python3-distro (>= 1.0.1 (from certbot>=3.0.0->certbot-dns-digitalocean=3.0.0)), python3-idna (<< 4), python3-idna (>= 2.5 (from requests>=2.20.0->acme>=3.0.0->certbot-dns-digitalocean=3.0.0)), python3-josepy (<< 2), python3-josepy (>= 1.13.0 (from acme>=3.0.0->certbot-dns-digitalocean=3.0.0)), python3-jsonpickle ( (from python-digitalocean>= 1.11->certbot-dns-digitalocean=3.0.0)), python3-openssl (>= 17.5.0 (from acme>=3.0.0->certbot-dns-digitalocean=3.0.0)), python3-parsedatetime (>= 2.4 (from certbot>=3.0.0->certbot-dns-digitalocean=3.0.0)), python3-pycparser ( (from cffi>= 1.14->cryptography>=3.2.1->acme>=3.0.0->certbot-dns-digitalocean=3.0.0)), python3-pyrfc3339 ( (from acme>= 3.0.0->certbot-dns-digitalocean=3.0.0)), python3-requests (>= 2.20.0 (from acme>=3.0.0->certbot-dns-digitalocean=3.0.0)), python3-setuptools (>= 41.6.0 (from certbot-dns-digitalocean=3.0.0)), python3-tz (>= 2019.3 (from acme>=3.0.0->certbot-dns-digitalocean=3.0.0)), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1 (from requests>=2.20.0->acme>=3.0.0->certbot-dns-digitalocean=3.0.0))
+Depends: python3-acme (>= 3.0.0 ), python3-certbot (>= 3.0.0 ), python3-certifi (>= 2017.4.17 ), python3-cffi (>= 1.14 ), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2 ), python3-configargparse (>= 1.5.3 ), python3-configobj (>= 5.0.6 ), python3-cryptography (>= 3.2.1 ), python3-digitalocean (>= 1.11 ), python3-distro (>= 1.0.1 ), python3-idna (<< 4), python3-idna (>= 2.5 ), python3-josepy (<< 2), python3-josepy (>= 1.13.0 ), python3-jsonpickle ( ), python3-openssl (>= 17.5.0 ), python3-parsedatetime (>= 2.4 ), python3-pycparser ( ), python3-pyrfc3339 ( ), python3-requests (>= 2.20.0 ), python3-setuptools (>= 41.6.0 ), python3-tz (>= 2019.3 ), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1 )
 Description: Certbot-Dns-Digitalocean for Python
  Certbot-Dns-Digitalocean is a certbot-dns-digitalocean library for Python.
 
 Package: python3-certbot-dns-google
 Architecture: amd64
-Depends: python3-acme (>= 3.0.0 (from certbot-dns-google=3.0.0)), python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0 (from google-auth>=2.16.0->certbot-dns-google=3.0.0)), python3-certbot (>= 3.0.0 (from certbot-dns-google=3.0.0)), python3-certifi (>= 2017.4.17 (from requests>=2.20.0->acme>=3.0.0->certbot-dns-google=3.0.0)), python3-cffi (>= 1.14 (from cryptography>=3.2.1->acme>=3.0.0->certbot-dns-google=3.0.0)), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2 (from requests>=2.20.0->acme>=3.0.0->certbot-dns-google=3.0.0)), python3-configargparse (>= 1.5.3 (from certbot>=3.0.0->certbot-dns-google=3.0.0)), python3-configobj (>= 5.0.6 (from certbot>=3.0.0->certbot-dns-google=3.0.0)), python3-cryptography (>= 3.2.1 (from acme>=3.0.0->certbot-dns-google=3.0.0)), python3-distro (>= 1.0.1 (from certbot>=3.0.0->certbot-dns-google=3.0.0)), python3-google-api-core (<< 3.0.0.dev0), python3-google-api-core (>= 1.31.5 (from google-api-python-client>=1.6.5->certbot-dns-google=3.0.0)), python3-google-auth (>= 2.16.0 (from certbot-dns-google=3.0.0)), python3-google-auth-httplib2 (<< 1.0.0), python3-google-auth-httplib2 (>= 0.2.0 (from google-api-python-client>=1.6.5->certbot-dns-google=3.0.0)), python3-googleapi (>= 1.6.5 (from certbot-dns-google=3.0.0)), python3-googleapis-common-protos (<< 2.0.dev0), python3-googleapis-common-protos (<< 3.0.0.dev0), python3-googleapis-common-protos (>= 1.31.5->google-api-python-client>=1.6.5->certbot-dns-google=3.0.0)), python3-googleapis-common-protos (>= 1.56.2 (from google-api-core!=2.0.*), python3-httplib2 (<< 1.dev0), python3-httplib2 (>= 0.19.0 (from google-api-python-client>=1.6.5->certbot-dns-google=3.0.0)), python3-idna (<< 4), python3-idna (>= 2.5 (from requests>=2.20.0->acme>=3.0.0->certbot-dns-google=3.0.0)), python3-josepy (<< 2), python3-josepy (>= 1.13.0 (from acme>=3.0.0->certbot-dns-google=3.0.0)), python3-openssl (>= 17.5.0 (from acme>=3.0.0->certbot-dns-google=3.0.0)), python3-parsedatetime (>= 2.4 (from certbot>=3.0.0->certbot-dns-google=3.0.0)), python3-proto-plus (<< 2.0.0dev), python3-proto-plus (<< 3.0.0.dev0), python3-proto-plus (>= 1.22.3 (from google-api-core!=2.0.*), python3-proto-plus (>= 1.31.5->google-api-python-client>=1.6.5->certbot-dns-google=3.0.0)), python3-protobuf (<< 3.0.0.dev0), python3-protobuf (<< 6.0.0.dev0), python3-protobuf (>= 1.31.5->google-api-python-client>=1.6.5->certbot-dns-google=3.0.0)), python3-protobuf (>= 3.19.5 (from google-api-core!=2.0.*), python3-pyasn1 (>= 0.1.3 (from rsa<5), python3-pyasn1 (>= 3.1.4->google-auth>=2.16.0->certbot-dns-google=3.0.0)), python3-pyasn1-modules (>= 0.2.1 (from google-auth>=2.16.0->certbot-dns-google=3.0.0)), python3-pycparser ( (from cffi>= 1.14->cryptography>=3.2.1->acme>=3.0.0->certbot-dns-google=3.0.0)), python3-pyparsing (<< 4), python3-pyparsing (>= 0.19.0->google-api-python-client>=1.6.5->certbot-dns-google=3.0.0)), python3-pyparsing (>= 2.4.2 (from httplib2<1.dev0), python3-pyrfc3339 ( (from acme>= 3.0.0->certbot-dns-google=3.0.0)), python3-requests (>= 2.20.0 (from acme>=3.0.0->certbot-dns-google=3.0.0)), python3-rsa (<< 5), python3-rsa (>= 3.1.4 (from google-auth>=2.16.0->certbot-dns-google=3.0.0)), python3-setuptools (>= 41.6.0 (from certbot-dns-google=3.0.0)), python3-tz (>= 2019.3 (from acme>=3.0.0->certbot-dns-google=3.0.0)), python3-uritemplate (<< 5), python3-uritemplate (>= 3.0.1 (from google-api-python-client>=1.6.5->certbot-dns-google=3.0.0)), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1 (from requests>=2.20.0->acme>=3.0.0->certbot-dns-google=3.0.0))
+Depends: python3-acme (>= 3.0.0 ), python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0 ), python3-certbot (>= 3.0.0 ), python3-certifi (>= 2017.4.17 ), python3-cffi (>= 1.14 ), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2 ), python3-configargparse (>= 1.5.3 ), python3-configobj (>= 5.0.6 ), python3-cryptography (>= 3.2.1 ), python3-distro (>= 1.0.1 ), python3-google-api-core (<< 3.0.0.dev0), python3-google-api-core (>= 1.31.5 ), python3-google-auth (>= 2.16.0 ), python3-google-auth-httplib2 (<< 1.0.0), python3-google-auth-httplib2 (>= 0.2.0 ), python3-googleapi (>= 1.6.5 ), python3-googleapis-common-protos (<< 2.0.dev0), python3-googleapis-common-protos (<< 3.0.0.dev0), python3-googleapis-common-protos (>= 1.31.5->google-api-python-client>=1.6.5->certbot-dns-google=3.0.0)), python3-googleapis-common-protos (>= 1.56.2 , python3-httplib2 (<< 1.dev0), python3-httplib2 (>= 0.19.0 ), python3-idna (<< 4), python3-idna (>= 2.5 ), python3-josepy (<< 2), python3-josepy (>= 1.13.0 ), python3-openssl (>= 17.5.0 ), python3-parsedatetime (>= 2.4 ), python3-proto-plus (<< 2.0.0dev), python3-proto-plus (<< 3.0.0.dev0), python3-proto-plus (>= 1.22.3 , python3-proto-plus (>= 1.31.5->google-api-python-client>=1.6.5->certbot-dns-google=3.0.0)), python3-protobuf (<< 3.0.0.dev0), python3-protobuf (<< 6.0.0.dev0), python3-protobuf (>= 1.31.5->google-api-python-client>=1.6.5->certbot-dns-google=3.0.0)), python3-protobuf (>= 3.19.5 , python3-pyasn1 (>= 0.1.3 , python3-pyasn1 (>= 3.1.4->google-auth>=2.16.0->certbot-dns-google=3.0.0)), python3-pyasn1-modules (>= 0.2.1 ), python3-pycparser ( ), python3-pyparsing (<< 4), python3-pyparsing (>= 0.19.0->google-api-python-client>=1.6.5->certbot-dns-google=3.0.0)), python3-pyparsing (>= 2.4.2 , python3-pyrfc3339 ( ), python3-requests (>= 2.20.0 ), python3-rsa (<< 5), python3-rsa (>= 3.1.4 ), python3-setuptools (>= 41.6.0 ), python3-tz (>= 2019.3 ), python3-uritemplate (<< 5), python3-uritemplate (>= 3.0.1 ), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1 )
 Description: Certbot-Dns-Google for Python
  Certbot-Dns-Google is a certbot-dns-google library for Python.
 
 Package: python3-certbot-dns-ovh
 Architecture: amd64
-Depends: python3-acme (>= 3.0.0 (from certbot-dns-ovh=3.0.0)), python3-bs4 (>= 4 (from dns-lexicon>=3.15.1->certbot-dns-ovh=3.0.0)), python3-certbot (>= 3.0.0 (from certbot-dns-ovh=3.0.0)), python3-certifi (>= 2017.4.17 (from requests>=2.20.0->acme>=3.0.0->certbot-dns-ovh=3.0.0)), python3-cffi (>= 1.14 (from cryptography>=3.2.1->acme>=3.0.0->certbot-dns-ovh=3.0.0)), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2 (from requests>=2.20.0->acme>=3.0.0->certbot-dns-ovh=3.0.0)), python3-configargparse (>= 1.5.3 (from certbot>=3.0.0->certbot-dns-ovh=3.0.0)), python3-configobj (>= 5.0.6 (from certbot>=3.0.0->certbot-dns-ovh=3.0.0)), python3-cryptography (>= 3.2.1 (from acme>=3.0.0->certbot-dns-ovh=3.0.0)), python3-distro (>= 1.0.1 (from certbot>=3.0.0->certbot-dns-ovh=3.0.0)), python3-dns-lexicon (>= 3.15.1 (from certbot-dns-ovh=3.0.0)), python3-dnspython (>= 2 (from dns-lexicon>=3.15.1->certbot-dns-ovh=3.0.0)), python3-filelock (>= 3.0.8 (from tldextract>=2->dns-lexicon>=3.15.1->certbot-dns-ovh=3.0.0)), python3-idna (<< 4), python3-idna (>= 2.5 (from requests>=2.20.0->acme>=3.0.0->certbot-dns-ovh=3.0.0)), python3-josepy (<< 2), python3-josepy (>= 1.13.0 (from acme>=3.0.0->certbot-dns-ovh=3.0.0)), python3-openssl (>= 17.5.0 (from acme>=3.0.0->certbot-dns-ovh=3.0.0)), python3-parsedatetime (>= 2.4 (from certbot>=3.0.0->certbot-dns-ovh=3.0.0)), python3-pycparser ( (from cffi>= 1.14->cryptography>=3.2.1->acme>=3.0.0->certbot-dns-ovh=3.0.0)), python3-pyotp (>= 2 (from dns-lexicon>=3.15.1->certbot-dns-ovh=3.0.0)), python3-pyrfc3339 ( (from acme>= 3.0.0->certbot-dns-ovh=3.0.0)), python3-requests (>= 2.20.0 (from acme>=3.0.0->certbot-dns-ovh=3.0.0)), python3-requests-file (>= 1.4 (from tldextract>=2->dns-lexicon>=3.15.1->certbot-dns-ovh=3.0.0)), python3-setuptools (>= 41.6.0 (from certbot-dns-ovh=3.0.0)), python3-soupsieve (>>1.2 (from beautifulsoup4>=4->dns-lexicon>=3.15.1->certbot-dns-ovh=3.0.0)), python3-tldextract (>= 2 (from dns-lexicon>=3.15.1->certbot-dns-ovh=3.0.0)), python3-typing-extensions (>= 4.0.0 (from beautifulsoup4>=4->dns-lexicon>=3.15.1->certbot-dns-ovh=3.0.0)), python3-tz (>= 2019.3 (from acme>=3.0.0->certbot-dns-ovh=3.0.0)), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1 (from requests>=2.20.0->acme>=3.0.0->certbot-dns-ovh=3.0.0)), python3-yaml (>= 3 (from dns-lexicon>=3.15.1->certbot-dns-ovh=3.0.0))
+Depends: python3-acme (>= 3.0.0 ), python3-bs4 (>= 4 ), python3-certbot (>= 3.0.0 ), python3-certifi (>= 2017.4.17 ), python3-cffi (>= 1.14 ), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2 ), python3-configargparse (>= 1.5.3 ), python3-configobj (>= 5.0.6 ), python3-cryptography (>= 3.2.1 ), python3-distro (>= 1.0.1 ), python3-dns-lexicon (>= 3.15.1 ), python3-dnspython (>= 2 ), python3-filelock (>= 3.0.8 ), python3-idna (<< 4), python3-idna (>= 2.5 ), python3-josepy (<< 2), python3-josepy (>= 1.13.0 ), python3-openssl (>= 17.5.0 ), python3-parsedatetime (>= 2.4 ), python3-pycparser ( ), python3-pyotp (>= 2 ), python3-pyrfc3339 ( ), python3-requests (>= 2.20.0 ), python3-requests-file (>= 1.4 ), python3-setuptools (>= 41.6.0 ), python3-soupsieve (>>1.2 ), python3-tldextract (>= 2 ), python3-typing-extensions (>= 4.0.0 ), python3-tz (>= 2019.3 ), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1 ), python3-yaml (>= 3 )
 Description: Certbot-Dns-Ovh for Python
  Certbot-Dns-Ovh is a certbot-dns-ovh library for Python.
 
 Package: python3-cloudflare
 Architecture: amd64
-Depends: python3-attr (>= 19.2.0 (from jsonlines->cloudflare=2.19.0)), python3-certifi (>= 2017.4.17 (from requests->cloudflare=2.19.0)), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2 (from requests->cloudflare=2.19.0)), python3-idna (<< 4), python3-idna (>= 2.5 (from requests->cloudflare=2.19.0)), python3-jsonlines ( (from cloudflare= 2.19.0)), python3-requests ( (from cloudflare= 2.19.0)), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1 (from requests->cloudflare=2.19.0)), python3-yaml ( (from cloudflare= 2.19.0))
+Depends: python3-attr (>= 19.2.0 ), python3-certifi (>= 2017.4.17 ), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2 ), python3-idna (<< 4), python3-idna (>= 2.5 ), python3-jsonlines ( ), python3-requests ( ), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1 ), python3-yaml ( )
 Description: Cloudflare for Python
  Cloudflare is a cloudflare library for Python.
 
 Package: python3-cryptography
 Architecture: amd64
-Depends: python3-cffi (>= 1.14 (from cryptography=45.0.6)), python3-pycparser ( (from cffi>= 1.14->cryptography=45.0.6))
+Depends: python3-cffi (>= 1.14 ), python3-pycparser ( )
 Description: Cryptography for Python
  Cryptography is a cryptography library for Python.
 
 Package: python3-dns-lexicon
 Architecture: amd64
-Depends: python3-bs4 (>= 4 (from dns-lexicon=3.18.0)), python3-certifi (>= 2017.4.17 (from requests>=2->dns-lexicon=3.18.0)), python3-cffi (>= 1.14 (from cryptography>=2->dns-lexicon=3.18.0)), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2 (from requests>=2->dns-lexicon=3.18.0)), python3-cryptography (>= 2 (from dns-lexicon=3.18.0)), python3-dnspython (>= 2 (from dns-lexicon=3.18.0)), python3-filelock (>= 3.0.8 (from tldextract>=2->dns-lexicon=3.18.0)), python3-idna (<< 4), python3-idna (>= 2.5 (from requests>=2->dns-lexicon=3.18.0)), python3-pycparser ( (from cffi>= 1.14->cryptography>=2->dns-lexicon=3.18.0)), python3-pyotp (>= 2 (from dns-lexicon=3.18.0)), python3-requests (>= 2 (from dns-lexicon=3.18.0)), python3-requests-file (>= 1.4 (from tldextract>=2->dns-lexicon=3.18.0)), python3-soupsieve (>>1.2 (from beautifulsoup4>=4->dns-lexicon=3.18.0)), python3-tldextract (>= 2 (from dns-lexicon=3.18.0)), python3-typing-extensions (>= 4.0.0 (from beautifulsoup4>=4->dns-lexicon=3.18.0)), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1 (from requests>=2->dns-lexicon=3.18.0)), python3-yaml (>= 3 (from dns-lexicon=3.18.0))
+Depends: python3-bs4 (>= 4 ), python3-certifi (>= 2017.4.17 ), python3-cffi (>= 1.14 ), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2 ), python3-cryptography (>= 2 ), python3-dnspython (>= 2 ), python3-filelock (>= 3.0.8 ), python3-idna (<< 4), python3-idna (>= 2.5 ), python3-pycparser ( ), python3-pyotp (>= 2 ), python3-requests (>= 2 ), python3-requests-file (>= 1.4 ), python3-soupsieve (>>1.2 ), python3-tldextract (>= 2 ), python3-typing-extensions (>= 4.0.0 ), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1 ), python3-yaml (>= 3 )
 Description: Dns-Lexicon for Python
  Dns-Lexicon is a dns-lexicon library for Python.
 
 Package: python3-docker
 Architecture: amd64
-Depends: python3-certifi (>= 2017.4.17 (from requests>=2.26.0->docker=7.1.0)), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2 (from requests>=2.26.0->docker=7.1.0)), python3-idna (<< 4), python3-idna (>= 2.5 (from requests>=2.26.0->docker=7.1.0)), python3-requests (>= 2.26.0 (from docker=7.1.0)), python3-urllib3 (>= 1.26.0 (from docker=7.1.0)), python3-urllib3 (>= 1.26.0 (from docker=7.1.0))
+Depends: python3-certifi (>= 2017.4.17 ), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2 ), python3-idna (<< 4), python3-idna (>= 2.5 ), python3-requests (>= 2.26.0 ), python3-urllib3 (>= 1.26.0 ), python3-urllib3 (>= 1.26.0 )
 Description: Docker for Python
  Docker is a docker library for Python.
 
 Package: python3-email-validator
 Architecture: amd64
-Depends: python3-dnspython (>= 2.0.0 (from email_validator=2.2.0)), python3-idna (>= 2.0.0 (from email_validator=2.2.0))
+Depends: python3-dnspython (>= 2.0.0 ), python3-idna (>= 2.0.0 )
 Description: Email_Validator for Python
  Email_Validator is a email_validator library for Python.
 
 Package: python3-google-api-core
 Architecture: amd64
-Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0 (from google-auth<3.0.dev0), python3-cachetools (>= 2.14.1->google-api-core=2.21.0)), python3-certifi (>= 2.18.0->google-api-core=2.21.0)), python3-certifi (>= 2017.4.17 (from requests<3.0.0.dev0), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2 (from requests<3.0.0.dev0), python3-charset-normalizer (>= 2.18.0->google-api-core=2.21.0)), python3-google-auth (<< 3.0.dev0), python3-google-auth (>= 2.14.1 (from google-api-core=2.21.0)), python3-googleapis-common-protos (<< 2.0.dev0), python3-googleapis-common-protos (>= 1.56.2 (from google-api-core=2.21.0)), python3-idna (<< 4), python3-idna (>= 2.18.0->google-api-core=2.21.0)), python3-idna (>= 2.5 (from requests<3.0.0.dev0), python3-proto-plus (<< 2.0.0dev), python3-proto-plus (>= 1.22.3 (from google-api-core=2.21.0)), python3-protobuf (<< 6.0.0.dev0), python3-protobuf (>= 3.19.5 (from google-api-core=2.21.0)), python3-pyasn1 (>= 0.1.3 (from rsa<5), python3-pyasn1 (>= 2.14.1->google-api-core=2.21.0)), python3-pyasn1 (>= 3.1.4->google-auth<3.0.dev0), python3-pyasn1-modules (>= 0.2.1 (from google-auth<3.0.dev0), python3-pyasn1-modules (>= 2.14.1->google-api-core=2.21.0)), python3-requests (<< 3.0.0.dev0), python3-requests (>= 2.18.0 (from google-api-core=2.21.0)), python3-rsa (<< 5), python3-rsa (>= 2.14.1->google-api-core=2.21.0)), python3-rsa (>= 3.1.4 (from google-auth<3.0.dev0), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1 (from requests<3.0.0.dev0), python3-urllib3 (>= 2.18.0->google-api-core=2.21.0))
+Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0 , python3-cachetools (>= 2.14.1->google-api-core=2.21.0)), python3-certifi (>= 2.18.0->google-api-core=2.21.0)), python3-certifi (>= 2017.4.17 , python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2 , python3-charset-normalizer (>= 2.18.0->google-api-core=2.21.0)), python3-google-auth (<< 3.0.dev0), python3-google-auth (>= 2.14.1 ), python3-googleapis-common-protos (<< 2.0.dev0), python3-googleapis-common-protos (>= 1.56.2 ), python3-idna (<< 4), python3-idna (>= 2.18.0->google-api-core=2.21.0)), python3-idna (>= 2.5 , python3-proto-plus (<< 2.0.0dev), python3-proto-plus (>= 1.22.3 ), python3-protobuf (<< 6.0.0.dev0), python3-protobuf (>= 3.19.5 ), python3-pyasn1 (>= 0.1.3 , python3-pyasn1 (>= 2.14.1->google-api-core=2.21.0)), python3-pyasn1 (>= 3.1.4->google-auth<3.0.dev0), python3-pyasn1-modules (>= 0.2.1 , python3-pyasn1-modules (>= 2.14.1->google-api-core=2.21.0)), python3-requests (<< 3.0.0.dev0), python3-requests (>= 2.18.0 ), python3-rsa (<< 5), python3-rsa (>= 2.14.1->google-api-core=2.21.0)), python3-rsa (>= 3.1.4 , python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1 , python3-urllib3 (>= 2.18.0->google-api-core=2.21.0))
 Description: Google-Api-Core for Python
  Google-Api-Core is a google-api-core library for Python.
 
 Package: python3-googleapi
 Architecture: amd64
-Depends: python3-cachetools (<< 3.0.0.dev0), python3-cachetools (<< 6.0), python3-cachetools (>= 1.32.0->google-api-python-client=2.149.0)), python3-cachetools (>= 2.0.0 (from google-auth!=2.24.0), python3-certifi (<< 3.0.0.dev0), python3-certifi (>= 1.31.5->google-api-python-client=2.149.0)), python3-certifi (>= 2.18.0->google-api-core!=2.0.*), python3-certifi (>= 2017.4.17 (from requests<3.0.0.dev0), python3-charset-normalizer (<< 3.0.0.dev0), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 1.31.5->google-api-python-client=2.149.0)), python3-charset-normalizer (>= 2 (from requests<3.0.0.dev0), python3-charset-normalizer (>= 2.18.0->google-api-core!=2.0.*), python3-google-api-core (<< 3.0.0.dev0), python3-google-api-core (>= 1.31.5 (from google-api-python-client=2.149.0)), python3-google-auth (<< 3.0.0.dev0), python3-google-auth (>= 1.32.0 (from google-api-python-client=2.149.0)), python3-google-auth-httplib2 (<< 1.0.0), python3-google-auth-httplib2 (>= 0.2.0 (from google-api-python-client=2.149.0)), python3-googleapis-common-protos (<< 2.0.dev0), python3-googleapis-common-protos (<< 3.0.0.dev0), python3-googleapis-common-protos (>= 1.31.5->google-api-python-client=2.149.0)), python3-googleapis-common-protos (>= 1.56.2 (from google-api-core!=2.0.*), python3-httplib2 (<< 1.dev0), python3-httplib2 (>= 0.19.0 (from google-api-python-client=2.149.0)), python3-idna (<< 3.0.0.dev0), python3-idna (<< 4), python3-idna (>= 1.31.5->google-api-python-client=2.149.0)), python3-idna (>= 2.18.0->google-api-core!=2.0.*), python3-idna (>= 2.5 (from requests<3.0.0.dev0), python3-proto-plus (<< 2.0.0dev), python3-proto-plus (<< 3.0.0.dev0), python3-proto-plus (>= 1.22.3 (from google-api-core!=2.0.*), python3-proto-plus (>= 1.31.5->google-api-python-client=2.149.0)), python3-protobuf (<< 3.0.0.dev0), python3-protobuf (<< 6.0.0.dev0), python3-protobuf (>= 1.31.5->google-api-python-client=2.149.0)), python3-protobuf (>= 3.19.5 (from google-api-core!=2.0.*), python3-pyasn1 (<< 3.0.0.dev0), python3-pyasn1 (>= 0.1.3 (from rsa<5), python3-pyasn1 (>= 1.32.0->google-api-python-client=2.149.0)), python3-pyasn1 (>= 3.1.4->google-auth!=2.24.0), python3-pyasn1-modules (<< 3.0.0.dev0), python3-pyasn1-modules (>= 0.2.1 (from google-auth!=2.24.0), python3-pyasn1-modules (>= 1.32.0->google-api-python-client=2.149.0)), python3-pyparsing (<< 4), python3-pyparsing (>= 0.19.0->google-api-python-client=2.149.0)), python3-pyparsing (>= 2.4.2 (from httplib2<1.dev0), python3-requests (<< 3.0.0.dev0), python3-requests (<< 3.0.0.dev0), python3-requests (>= 1.31.5->google-api-python-client=2.149.0)), python3-requests (>= 2.18.0 (from google-api-core!=2.0.*), python3-rsa (<< 3.0.0.dev0), python3-rsa (<< 5), python3-rsa (>= 1.32.0->google-api-python-client=2.149.0)), python3-rsa (>= 3.1.4 (from google-auth!=2.24.0), python3-uritemplate (<< 5), python3-uritemplate (>= 3.0.1 (from google-api-python-client=2.149.0)), python3-urllib3 (<< 1.27), python3-urllib3 (<< 3.0.0.dev0), python3-urllib3 (>= 1.21.1 (from requests<3.0.0.dev0), python3-urllib3 (>= 1.31.5->google-api-python-client=2.149.0)), python3-urllib3 (>= 2.18.0->google-api-core!=2.0.*)
+Depends: python3-cachetools (<< 3.0.0.dev0), python3-cachetools (<< 6.0), python3-cachetools (>= 1.32.0->google-api-python-client=2.149.0)), python3-cachetools (>= 2.0.0 , python3-certifi (<< 3.0.0.dev0), python3-certifi (>= 1.31.5->google-api-python-client=2.149.0)), python3-certifi (>= 2.18.0->google-api-core!=2.0.*), python3-certifi (>= 2017.4.17 , python3-charset-normalizer (<< 3.0.0.dev0), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 1.31.5->google-api-python-client=2.149.0)), python3-charset-normalizer (>= 2 , python3-charset-normalizer (>= 2.18.0->google-api-core!=2.0.*), python3-google-api-core (<< 3.0.0.dev0), python3-google-api-core (>= 1.31.5 ), python3-google-auth (<< 3.0.0.dev0), python3-google-auth (>= 1.32.0 ), python3-google-auth-httplib2 (<< 1.0.0), python3-google-auth-httplib2 (>= 0.2.0 ), python3-googleapis-common-protos (<< 2.0.dev0), python3-googleapis-common-protos (<< 3.0.0.dev0), python3-googleapis-common-protos (>= 1.31.5->google-api-python-client=2.149.0)), python3-googleapis-common-protos (>= 1.56.2 , python3-httplib2 (<< 1.dev0), python3-httplib2 (>= 0.19.0 ), python3-idna (<< 3.0.0.dev0), python3-idna (<< 4), python3-idna (>= 1.31.5->google-api-python-client=2.149.0)), python3-idna (>= 2.18.0->google-api-core!=2.0.*), python3-idna (>= 2.5 , python3-proto-plus (<< 2.0.0dev), python3-proto-plus (<< 3.0.0.dev0), python3-proto-plus (>= 1.22.3 , python3-proto-plus (>= 1.31.5->google-api-python-client=2.149.0)), python3-protobuf (<< 3.0.0.dev0), python3-protobuf (<< 6.0.0.dev0), python3-protobuf (>= 1.31.5->google-api-python-client=2.149.0)), python3-protobuf (>= 3.19.5 , python3-pyasn1 (<< 3.0.0.dev0), python3-pyasn1 (>= 0.1.3 , python3-pyasn1 (>= 1.32.0->google-api-python-client=2.149.0)), python3-pyasn1 (>= 3.1.4->google-auth!=2.24.0), python3-pyasn1-modules (<< 3.0.0.dev0), python3-pyasn1-modules (>= 0.2.1 , python3-pyasn1-modules (>= 1.32.0->google-api-python-client=2.149.0)), python3-pyparsing (<< 4), python3-pyparsing (>= 0.19.0->google-api-python-client=2.149.0)), python3-pyparsing (>= 2.4.2 , python3-requests (<< 3.0.0.dev0), python3-requests (<< 3.0.0.dev0), python3-requests (>= 1.31.5->google-api-python-client=2.149.0)), python3-requests (>= 2.18.0 , python3-rsa (<< 3.0.0.dev0), python3-rsa (<< 5), python3-rsa (>= 1.32.0->google-api-python-client=2.149.0)), python3-rsa (>= 3.1.4 , python3-uritemplate (<< 5), python3-uritemplate (>= 3.0.1 ), python3-urllib3 (<< 1.27), python3-urllib3 (<< 3.0.0.dev0), python3-urllib3 (>= 1.21.1 , python3-urllib3 (>= 1.31.5->google-api-python-client=2.149.0)), python3-urllib3 (>= 2.18.0->google-api-core!=2.0.*)
 Description: Google-Api-Python-Client for Python
  Google-Api-Python-Client is a google-api-python-client library for Python.
 
 Package: python3-googleapis-common-protos
 Architecture: amd64
-Depends: python3-protobuf (<< 6.0.0.dev0), python3-protobuf (>= 3.20.2 (from googleapis-common-protos=1.65.0))
+Depends: python3-protobuf (<< 6.0.0.dev0), python3-protobuf (>= 3.20.2 )
 Description: Googleapis-Common-Protos for Python
  Googleapis-Common-Protos is a googleapis-common-protos library for Python.
 
 Package: python3-google-auth
 Architecture: amd64
-Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0 (from google-auth=2.35.0)), python3-pyasn1 (>= 0.1.3 (from rsa<5), python3-pyasn1 (>= 3.1.4->google-auth=2.35.0)), python3-pyasn1-modules (>= 0.2.1 (from google-auth=2.35.0)), python3-rsa (<< 5), python3-rsa (>= 3.1.4 (from google-auth=2.35.0))
+Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0 ), python3-pyasn1 (>= 0.1.3 , python3-pyasn1 (>= 3.1.4->google-auth=2.35.0)), python3-pyasn1-modules (>= 0.2.1 ), python3-rsa (<< 5), python3-rsa (>= 3.1.4 )
 Description: Google-Auth for Python
  Google-Auth is a google-auth library for Python.
 
 Package: python3-google-auth-httplib2
 Architecture: amd64
-Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0 (from google-auth->google-auth-httplib2=0.2.0)), python3-google-auth ( (from google-auth-httplib 2=0.2.0)), python3-httplib2 (>= 0.19.0 (from google-auth-httplib2=0.2.0)), python3-pyasn1 (>= 0.1.3 (from rsa<5), python3-pyasn1 (>= 3.1.4->google-auth->google-auth-httplib2=0.2.0)), python3-pyasn1-modules (>= 0.2.1 (from google-auth->google-auth-httplib2=0.2.0)), python3-pyparsing (<< 4), python3-pyparsing (>= 2.4.2 (from httplib2>=0.19.0->google-auth-httplib2=0.2.0)), python3-rsa (<< 5), python3-rsa (>= 3.1.4 (from google-auth->google-auth-httplib2=0.2.0))
+Depends: python3-cachetools (<< 6.0), python3-cachetools (>= 2.0.0 ), python3-google-auth ( ), python3-httplib2 (>= 0.19.0 ), python3-pyasn1 (>= 0.1.3 , python3-pyasn1 (>= 3.1.4->google-auth->google-auth-httplib2=0.2.0)), python3-pyasn1-modules (>= 0.2.1 ), python3-pyparsing (<< 4), python3-pyparsing (>= 2.4.2 ), python3-rsa (<< 5), python3-rsa (>= 3.1.4 )
 Description: Google-Auth-Httplib2 for Python
  Google-Auth-Httplib2 is a google-auth-httplib2 library for Python.
 
 Package: python3-jsonlines
 Architecture: amd64
-Depends: python3-attr (>= 19.2.0 (from jsonlines=4.0.0))
+Depends: python3-attr (>= 19.2.0 )
 Description: Jsonlines for Python
  Jsonlines is a jsonlines library for Python.
 
 Package: python3-paramiko
 Architecture: amd64
-Depends: python3-bcrypt (>= 3.2 (from paramiko=3.5.0)), python3-cffi (>= 1.14 (from cryptography>=3.3->paramiko=3.5.0)), python3-cryptography (>= 3.3 (from paramiko=3.5.0)), python3-nacl (>= 1.5 (from paramiko=3.5.0)), python3-pycparser ( (from cffi>= 1.14->cryptography>=3.3->paramiko=3.5.0))
+Depends: python3-bcrypt (>= 3.2 ), python3-cffi (>= 1.14 ), python3-cryptography (>= 3.3 ), python3-nacl (>= 1.5 ), python3-pycparser ( )
 Description: Paramiko for Python
  Paramiko is a paramiko library for Python.
 
 Package: python3-openssl
 Architecture: amd64
-Depends: python3-cffi (>= 1.14 (from cryptography<46), python3-cffi (>= 41.0.5->pyOpenSSL=25.1.0)), python3-cryptography (<< 46), python3-cryptography (>= 41.0.5 (from pyOpenSSL=25.1.0)), python3-pycparser ( (from cffi>= 1.14->cryptography<46), python3-pycparser (>= 41.0.5->pyOpenSSL=25.1.0))
+Depends: python3-cffi (>= 1.14 , python3-cffi (>= 41.0.5->pyOpenSSL=25.1.0)), python3-cryptography (<< 46), python3-cryptography (>= 41.0.5 ), python3-pycparser ( , python3-pycparser (>= 41.0.5->pyOpenSSL=25.1.0))
 Description: Pyopenssl for Python
  Pyopenssl is a pyOpenSSL library for Python.
 
 Package: python3-pyrfc3339
 Architecture: amd64
-Depends: python3-tz ( (from pyRFC 3339=1.1))
+Depends: python3-tz ( )
 Description: Pyrfc3339 for Python
  Pyrfc3339 is a pyRFC3339 library for Python.
 
 Package: python3-prompt-toolkit
 Architecture: amd64
-Depends: python3-wcwidth ( (from prompt-toolkit= 3.0.37))
+Depends: python3-wcwidth ( )
 Description: Prompt-Toolkit for Python
  Prompt-Toolkit is a prompt-toolkit library for Python.
 
@@ -212,7 +212,7 @@ Description: Propcache for Python
 
 Package: python3-proto-plus
 Architecture: amd64
-Depends: python3-protobuf (<< 6.0.0dev), python3-protobuf (>= 3.19.0 (from proto-plus=1.25.0))
+Depends: python3-protobuf (<< 6.0.0dev), python3-protobuf (>= 3.19.0 )
 Description: Proto-Plus for Python
  Proto-Plus is a proto-plus library for Python.
 
@@ -224,13 +224,13 @@ Description: Protobuf for Python
 
 Package: python3-pydantic
 Architecture: amd64
-Depends: python3-annotated-types (>= 0.6.0 (from pydantic=2.9.2)), python3-pydantic-core (= 2.23.4 (from pydantic=2.9.2)), python3-typing-extensions (>= 4.12.2 (from pydantic=2.9.2))
+Depends: python3-annotated-types (>= 0.6.0 ), python3-pydantic-core (= 2.23.4 ), python3-typing-extensions (>= 4.12.2 )
 Description: Pydantic for Python
  Pydantic is a pydantic library for Python.
 
 Package: python3-pydantic-core
 Architecture: amd64
-Depends: python3-typing-extensions (>= 4.6.0 (from pydantic_core=2.23.4))
+Depends: python3-typing-extensions (>= 4.6.0 )
 Description: Pydantic_Core for Python
  Pydantic_Core is a pydantic_core library for Python.
 
@@ -242,7 +242,7 @@ Description: Pyroute2 for Python
 
 Package: python3-digitalocean
 Architecture: amd64
-Depends: python3-certifi (>= 2017.4.17 (from requests->python-digitalocean=1.17.0)), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2 (from requests->python-digitalocean=1.17.0)), python3-idna (<< 4), python3-idna (>= 2.5 (from requests->python-digitalocean=1.17.0)), python3-jsonpickle ( (from python-digitalocean= 1.17.0)), python3-requests ( (from python-digitalocean= 1.17.0)), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1 (from requests->python-digitalocean=1.17.0))
+Depends: python3-certifi (>= 2017.4.17 ), python3-charset-normalizer (<< 4), python3-charset-normalizer (>= 2 ), python3-idna (<< 4), python3-idna (>= 2.5 ), python3-jsonpickle ( ), python3-requests ( ), python3-urllib3 (<< 1.27), python3-urllib3 (>= 1.21.1 )
 Description: Python-Digitalocean for Python
  Python-Digitalocean is a python-digitalocean library for Python.
 
@@ -254,7 +254,7 @@ Description: Remote-Pdb for Python
 
 Package: python3-s3transfer
 Architecture: amd64
-Depends: python3-botocore (<< 2.0a.0), python3-botocore (>= 1.33.2 (from s3transfer=0.10.3)), python3-dateutil (<< 3.0.0), python3-dateutil (>= 1.33.2->s3transfer=0.10.3)), python3-dateutil (>= 2.1 (from botocore<2.0a.0), python3-jmespath (<< 2.0.0), python3-jmespath (>= 0.7.1 (from botocore<2.0a.0), python3-jmespath (>= 1.33.2->s3transfer=0.10.3)), python3-six (>= 1.33.2->s3transfer=0.10.3)), python3-six (>= 1.5 (from python-dateutil<3.0.0), python3-six (>= 2.1->botocore<2.0a.0), python3-urllib3 (<< 3), python3-urllib3 (>= 1.25.4 (from botocore<2.0a.0), python3-urllib3 (>= 1.33.2->s3transfer=0.10.3))
+Depends: python3-botocore (<< 2.0a.0), python3-botocore (>= 1.33.2 ), python3-dateutil (<< 3.0.0), python3-dateutil (>= 1.33.2->s3transfer=0.10.3)), python3-dateutil (>= 2.1 , python3-jmespath (<< 2.0.0), python3-jmespath (>= 0.7.1 , python3-jmespath (>= 1.33.2->s3transfer=0.10.3)), python3-six (>= 1.33.2->s3transfer=0.10.3)), python3-six (>= 1.5 , python3-six (>= 2.1->botocore<2.0a.0), python3-urllib3 (<< 3), python3-urllib3 (>= 1.25.4 , python3-urllib3 (>= 1.33.2->s3transfer=0.10.3))
 Description: S3Transfer for Python
  S3Transfer is a s3transfer library for Python.
 
@@ -266,7 +266,7 @@ Description: Typing_Extensions for Python
 
 Package: python3-yarl
 Architecture: amd64
-Depends: python3-idna (>= 2.0 (from yarl=1.17.0)), python3-multidict (>= 4.0 (from yarl=1.17.0)), python3-propcache (>= 0.2.0 (from yarl=1.17.0))
+Depends: python3-idna (>= 2.0 ), python3-multidict (>= 4.0 ), python3-propcache (>= 0.2.0 )
 Description: Yarl for Python
  Yarl is a yarl library for Python.
 
