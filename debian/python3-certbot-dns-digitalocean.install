@@ -1,10 +1,10 @@
-v/lib/python3.13/site-packages/certbot_dns_digitalocean-3.0.0.dist-info/INSTALLER usr/lib/python3/dist-packages/certbot_dns_digitalocean-3.0.0.dist-info
-v/lib/python3.13/site-packages/certbot_dns_digitalocean-3.0.0.dist-info/LICENSE.txt usr/lib/python3/dist-packages/certbot_dns_digitalocean-3.0.0.dist-info
-v/lib/python3.13/site-packages/certbot_dns_digitalocean-3.0.0.dist-info/METADATA usr/lib/python3/dist-packages/certbot_dns_digitalocean-3.0.0.dist-info
-v/lib/python3.13/site-packages/certbot_dns_digitalocean-3.0.0.dist-info/RECORD usr/lib/python3/dist-packages/certbot_dns_digitalocean-3.0.0.dist-info
-v/lib/python3.13/site-packages/certbot_dns_digitalocean-3.0.0.dist-info/WHEEL usr/lib/python3/dist-packages/certbot_dns_digitalocean-3.0.0.dist-info
-v/lib/python3.13/site-packages/certbot_dns_digitalocean-3.0.0.dist-info/entry_points.txt usr/lib/python3/dist-packages/certbot_dns_digitalocean-3.0.0.dist-info
-v/lib/python3.13/site-packages/certbot_dns_digitalocean-3.0.0.dist-info/top_level.txt usr/lib/python3/dist-packages/certbot_dns_digitalocean-3.0.0.dist-info
+v/lib/python3.13/site-packages/certbot_dns_digitalocean-5.0.0.dist-info/INSTALLER usr/lib/python3/dist-packages/certbot_dns_digitalocean-5.0.0.dist-info
+v/lib/python3.13/site-packages/certbot_dns_digitalocean-5.0.0.dist-info/METADATA usr/lib/python3/dist-packages/certbot_dns_digitalocean-5.0.0.dist-info
+v/lib/python3.13/site-packages/certbot_dns_digitalocean-5.0.0.dist-info/RECORD usr/lib/python3/dist-packages/certbot_dns_digitalocean-5.0.0.dist-info
+v/lib/python3.13/site-packages/certbot_dns_digitalocean-5.0.0.dist-info/WHEEL usr/lib/python3/dist-packages/certbot_dns_digitalocean-5.0.0.dist-info
+v/lib/python3.13/site-packages/certbot_dns_digitalocean-5.0.0.dist-info/entry_points.txt usr/lib/python3/dist-packages/certbot_dns_digitalocean-5.0.0.dist-info
+v/lib/python3.13/site-packages/certbot_dns_digitalocean-5.0.0.dist-info/licenses/LICENSE.txt usr/lib/python3/dist-packages/certbot_dns_digitalocean-5.0.0.dist-info/licenses
+v/lib/python3.13/site-packages/certbot_dns_digitalocean-5.0.0.dist-info/top_level.txt usr/lib/python3/dist-packages/certbot_dns_digitalocean-5.0.0.dist-info
 v/lib/python3.13/site-packages/certbot_dns_digitalocean/__init__.py usr/lib/python3/dist-packages/certbot_dns_digitalocean
 v/lib/python3.13/site-packages/certbot_dns_digitalocean/__pycache__/__init__.cpython-313.pyc usr/lib/python3/dist-packages/certbot_dns_digitalocean/__pycache__
 v/lib/python3.13/site-packages/certbot_dns_digitalocean/_internal/__init__.py usr/lib/python3/dist-packages/certbot_dns_digitalocean/_internal

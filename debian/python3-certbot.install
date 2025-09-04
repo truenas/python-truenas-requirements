@@ -1,11 +1,11 @@
 v/bin/certbot usr/bin
-v/lib/python3.13/site-packages/certbot-3.0.0.dist-info/INSTALLER usr/lib/python3/dist-packages/certbot-3.0.0.dist-info
-v/lib/python3.13/site-packages/certbot-3.0.0.dist-info/LICENSE.txt usr/lib/python3/dist-packages/certbot-3.0.0.dist-info
-v/lib/python3.13/site-packages/certbot-3.0.0.dist-info/METADATA usr/lib/python3/dist-packages/certbot-3.0.0.dist-info
-v/lib/python3.13/site-packages/certbot-3.0.0.dist-info/RECORD usr/lib/python3/dist-packages/certbot-3.0.0.dist-info
-v/lib/python3.13/site-packages/certbot-3.0.0.dist-info/WHEEL usr/lib/python3/dist-packages/certbot-3.0.0.dist-info
-v/lib/python3.13/site-packages/certbot-3.0.0.dist-info/entry_points.txt usr/lib/python3/dist-packages/certbot-3.0.0.dist-info
-v/lib/python3.13/site-packages/certbot-3.0.0.dist-info/top_level.txt usr/lib/python3/dist-packages/certbot-3.0.0.dist-info
+v/lib/python3.13/site-packages/certbot-5.0.0.dist-info/INSTALLER usr/lib/python3/dist-packages/certbot-5.0.0.dist-info
+v/lib/python3.13/site-packages/certbot-5.0.0.dist-info/METADATA usr/lib/python3/dist-packages/certbot-5.0.0.dist-info
+v/lib/python3.13/site-packages/certbot-5.0.0.dist-info/RECORD usr/lib/python3/dist-packages/certbot-5.0.0.dist-info
+v/lib/python3.13/site-packages/certbot-5.0.0.dist-info/WHEEL usr/lib/python3/dist-packages/certbot-5.0.0.dist-info
+v/lib/python3.13/site-packages/certbot-5.0.0.dist-info/entry_points.txt usr/lib/python3/dist-packages/certbot-5.0.0.dist-info
+v/lib/python3.13/site-packages/certbot-5.0.0.dist-info/licenses/LICENSE.txt usr/lib/python3/dist-packages/certbot-5.0.0.dist-info/licenses
+v/lib/python3.13/site-packages/certbot-5.0.0.dist-info/top_level.txt usr/lib/python3/dist-packages/certbot-5.0.0.dist-info
 v/lib/python3.13/site-packages/certbot/__init__.py usr/lib/python3/dist-packages/certbot
 v/lib/python3.13/site-packages/certbot/__pycache__/__init__.cpython-313.pyc usr/lib/python3/dist-packages/certbot/__pycache__
 v/lib/python3.13/site-packages/certbot/__pycache__/achallenges.cpython-313.pyc usr/lib/python3/dist-packages/certbot/__pycache__
@@ -98,6 +98,7 @@ v/lib/python3.13/site-packages/certbot/_internal/tests/__pycache__/cert_manager_
 v/lib/python3.13/site-packages/certbot/_internal/tests/__pycache__/cli_test.cpython-313.pyc usr/lib/python3/dist-packages/certbot/_internal/tests/__pycache__
 v/lib/python3.13/site-packages/certbot/_internal/tests/__pycache__/client_test.cpython-313.pyc usr/lib/python3/dist-packages/certbot/_internal/tests/__pycache__
 v/lib/python3.13/site-packages/certbot/_internal/tests/__pycache__/configuration_test.cpython-313.pyc usr/lib/python3/dist-packages/certbot/_internal/tests/__pycache__
+v/lib/python3.13/site-packages/certbot/_internal/tests/__pycache__/conftest.cpython-313.pyc usr/lib/python3/dist-packages/certbot/_internal/tests/__pycache__
 v/lib/python3.13/site-packages/certbot/_internal/tests/__pycache__/crypto_util_test.cpython-313.pyc usr/lib/python3/dist-packages/certbot/_internal/tests/__pycache__
 v/lib/python3.13/site-packages/certbot/_internal/tests/__pycache__/eff_test.cpython-313.pyc usr/lib/python3/dist-packages/certbot/_internal/tests/__pycache__
 v/lib/python3.13/site-packages/certbot/_internal/tests/__pycache__/error_handler_test.cpython-313.pyc usr/lib/python3/dist-packages/certbot/_internal/tests/__pycache__
@@ -127,6 +128,7 @@ v/lib/python3.13/site-packages/certbot/_internal/tests/compat/filesystem_test.py
 v/lib/python3.13/site-packages/certbot/_internal/tests/compat/misc_test.py usr/lib/python3/dist-packages/certbot/_internal/tests/compat
 v/lib/python3.13/site-packages/certbot/_internal/tests/compat/os_test.py usr/lib/python3/dist-packages/certbot/_internal/tests/compat
 v/lib/python3.13/site-packages/certbot/_internal/tests/configuration_test.py usr/lib/python3/dist-packages/certbot/_internal/tests
+v/lib/python3.13/site-packages/certbot/_internal/tests/conftest.py usr/lib/python3/dist-packages/certbot/_internal/tests
 v/lib/python3.13/site-packages/certbot/_internal/tests/crypto_util_test.py usr/lib/python3/dist-packages/certbot/_internal/tests
 v/lib/python3.13/site-packages/certbot/_internal/tests/display/__init__.py usr/lib/python3/dist-packages/certbot/_internal/tests/display
 v/lib/python3.13/site-packages/certbot/_internal/tests/display/__pycache__/__init__.cpython-313.pyc usr/lib/python3/dist-packages/certbot/_internal/tests/display/__pycache__
@@ -258,7 +260,6 @@ v/lib/python3.13/site-packages/certbot/tests/testdata/ocsp_issuer_certificate.pe
 v/lib/python3.13/site-packages/certbot/tests/testdata/ocsp_responder_certificate.pem usr/lib/python3/dist-packages/certbot/tests/testdata
 v/lib/python3.13/site-packages/certbot/tests/testdata/os-release usr/lib/python3/dist-packages/certbot/tests/testdata
 v/lib/python3.13/site-packages/certbot/tests/testdata/rsa2048_key.pem usr/lib/python3/dist-packages/certbot/tests/testdata
-v/lib/python3.13/site-packages/certbot/tests/testdata/rsa256_key.pem usr/lib/python3/dist-packages/certbot/tests/testdata
 v/lib/python3.13/site-packages/certbot/tests/testdata/rsa512_key.pem usr/lib/python3/dist-packages/certbot/tests/testdata
 v/lib/python3.13/site-packages/certbot/tests/testdata/sample-archive-ec/cert1.pem usr/lib/python3/dist-packages/certbot/tests/testdata/sample-archive-ec
 v/lib/python3.13/site-packages/certbot/tests/testdata/sample-archive-ec/chain1.pem usr/lib/python3/dist-packages/certbot/tests/testdata/sample-archive-ec

@@ -9,7 +9,7 @@ override_dh_auto_build:
 
 override_dh_gencontrol:
 	dh_gencontrol
-	dh_gencontrol -ppython3-acme -- -v3.0.0
+	dh_gencontrol -ppython3-acme -- -v5.0.0
 	dh_gencontrol -ppython3-aiohappyeyeballs -- -v2.6.1
 	dh_gencontrol -ppython3-aiohttp -- -v3.12.14
 	dh_gencontrol -ppython3-aiohttp-rpc -- -v1.3.2
@@ -20,13 +20,13 @@ override_dh_gencontrol:
 	dh_gencontrol -ppython3-asyncssh -- -v2.18.0
 	dh_gencontrol -ppython3-attr -- -v24.2.0
 	dh_gencontrol -ppython3-aws-requests-auth -- -v0.4.3
-	dh_gencontrol -ppython3-boto3 -- -v1.35.49
-	dh_gencontrol -ppython3-botocore -- -v1.35.49
-	dh_gencontrol -ppython3-certbot -- -v3.0.0
-	dh_gencontrol -ppython3-certbot-dns-cloudflare -- -v3.0.0
-	dh_gencontrol -ppython3-certbot-dns-digitalocean -- -v3.0.0
-	dh_gencontrol -ppython3-certbot-dns-google -- -v3.0.0
-	dh_gencontrol -ppython3-certbot-dns-ovh -- -v3.0.0
+	dh_gencontrol -ppython3-boto3 -- -v1.36.0
+	dh_gencontrol -ppython3-botocore -- -v1.36.0
+	dh_gencontrol -ppython3-certbot -- -v5.0.0
+	dh_gencontrol -ppython3-certbot-dns-cloudflare -- -v5.0.0
+	dh_gencontrol -ppython3-certbot-dns-digitalocean -- -v5.0.0
+	dh_gencontrol -ppython3-certbot-dns-google -- -v5.0.0
+	dh_gencontrol -ppython3-certbot-dns-ovh -- -v5.0.0
 	dh_gencontrol -ppython3-cloudflare -- -v2.19.0
 	dh_gencontrol -ppython3-cryptography -- -v45.0.6
 	dh_gencontrol -ppython3-dns-lexicon -- -v3.18.0
@@ -50,7 +50,7 @@ override_dh_gencontrol:
 	dh_gencontrol -ppython3-pyroute2 -- -v0.7.12
 	dh_gencontrol -ppython3-digitalocean -- -v1.17.0
 	dh_gencontrol -ppython3-remote-pdb -- -v2.1.0
-	dh_gencontrol -ppython3-s3transfer -- -v0.10.3
+	dh_gencontrol -ppython3-s3transfer -- -v0.11.0
 	dh_gencontrol -ppython3-typing-extensions -- -v4.12.2
 	dh_gencontrol -ppython3-yarl -- -v1.17.0
 	dh_gencontrol -ppython3-websocket -- -v1.8.0

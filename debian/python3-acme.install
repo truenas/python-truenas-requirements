@@ -1,9 +1,9 @@
-v/lib/python3.13/site-packages/acme-3.0.0.dist-info/INSTALLER usr/lib/python3/dist-packages/acme-3.0.0.dist-info
-v/lib/python3.13/site-packages/acme-3.0.0.dist-info/LICENSE.txt usr/lib/python3/dist-packages/acme-3.0.0.dist-info
-v/lib/python3.13/site-packages/acme-3.0.0.dist-info/METADATA usr/lib/python3/dist-packages/acme-3.0.0.dist-info
-v/lib/python3.13/site-packages/acme-3.0.0.dist-info/RECORD usr/lib/python3/dist-packages/acme-3.0.0.dist-info
-v/lib/python3.13/site-packages/acme-3.0.0.dist-info/WHEEL usr/lib/python3/dist-packages/acme-3.0.0.dist-info
-v/lib/python3.13/site-packages/acme-3.0.0.dist-info/top_level.txt usr/lib/python3/dist-packages/acme-3.0.0.dist-info
+v/lib/python3.13/site-packages/acme-5.0.0.dist-info/INSTALLER usr/lib/python3/dist-packages/acme-5.0.0.dist-info
+v/lib/python3.13/site-packages/acme-5.0.0.dist-info/METADATA usr/lib/python3/dist-packages/acme-5.0.0.dist-info
+v/lib/python3.13/site-packages/acme-5.0.0.dist-info/RECORD usr/lib/python3/dist-packages/acme-5.0.0.dist-info
+v/lib/python3.13/site-packages/acme-5.0.0.dist-info/WHEEL usr/lib/python3/dist-packages/acme-5.0.0.dist-info
+v/lib/python3.13/site-packages/acme-5.0.0.dist-info/licenses/LICENSE.txt usr/lib/python3/dist-packages/acme-5.0.0.dist-info/licenses
+v/lib/python3.13/site-packages/acme-5.0.0.dist-info/top_level.txt usr/lib/python3/dist-packages/acme-5.0.0.dist-info
 v/lib/python3.13/site-packages/acme/__init__.py usr/lib/python3/dist-packages/acme
 v/lib/python3.13/site-packages/acme/__pycache__/__init__.cpython-313.pyc usr/lib/python3/dist-packages/acme/__pycache__
 v/lib/python3.13/site-packages/acme/__pycache__/challenges.cpython-313.pyc usr/lib/python3/dist-packages/acme/__pycache__
@@ -21,6 +21,7 @@ v/lib/python3.13/site-packages/acme/_internal/tests/__init__.py usr/lib/python3/
 v/lib/python3.13/site-packages/acme/_internal/tests/__pycache__/__init__.cpython-313.pyc usr/lib/python3/dist-packages/acme/_internal/tests/__pycache__
 v/lib/python3.13/site-packages/acme/_internal/tests/__pycache__/challenges_test.cpython-313.pyc usr/lib/python3/dist-packages/acme/_internal/tests/__pycache__
 v/lib/python3.13/site-packages/acme/_internal/tests/__pycache__/client_test.cpython-313.pyc usr/lib/python3/dist-packages/acme/_internal/tests/__pycache__
+v/lib/python3.13/site-packages/acme/_internal/tests/__pycache__/conftest.cpython-313.pyc usr/lib/python3/dist-packages/acme/_internal/tests/__pycache__
 v/lib/python3.13/site-packages/acme/_internal/tests/__pycache__/crypto_util_test.cpython-313.pyc usr/lib/python3/dist-packages/acme/_internal/tests/__pycache__
 v/lib/python3.13/site-packages/acme/_internal/tests/__pycache__/errors_test.cpython-313.pyc usr/lib/python3/dist-packages/acme/_internal/tests/__pycache__
 v/lib/python3.13/site-packages/acme/_internal/tests/__pycache__/fields_test.cpython-313.pyc usr/lib/python3/dist-packages/acme/_internal/tests/__pycache__
@@ -32,6 +33,7 @@ v/lib/python3.13/site-packages/acme/_internal/tests/__pycache__/test_util.cpytho
 v/lib/python3.13/site-packages/acme/_internal/tests/__pycache__/util_test.cpython-313.pyc usr/lib/python3/dist-packages/acme/_internal/tests/__pycache__
 v/lib/python3.13/site-packages/acme/_internal/tests/challenges_test.py usr/lib/python3/dist-packages/acme/_internal/tests
 v/lib/python3.13/site-packages/acme/_internal/tests/client_test.py usr/lib/python3/dist-packages/acme/_internal/tests
+v/lib/python3.13/site-packages/acme/_internal/tests/conftest.py usr/lib/python3/dist-packages/acme/_internal/tests
 v/lib/python3.13/site-packages/acme/_internal/tests/crypto_util_test.py usr/lib/python3/dist-packages/acme/_internal/tests
 v/lib/python3.13/site-packages/acme/_internal/tests/errors_test.py usr/lib/python3/dist-packages/acme/_internal/tests
 v/lib/python3.13/site-packages/acme/_internal/tests/fields_test.py usr/lib/python3/dist-packages/acme/_internal/tests
