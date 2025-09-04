@@ -121,6 +121,8 @@ def generate_control():
                                 f"-d /tmp {binary} -v",
                                 check=True, stdout=subprocess.PIPE, shell=True, text=True).stdout
         for dependency in re.findall(r"Collecting (.+)", output):
+            # Remove the (from ...) chain information from pip's output
+            dependency = re.sub(r'\s*\(from [^)]+\)$', '', dependency)
             expressions = dependency.split(",")
             if m := re.match("([0-9A-Za-z_-]+)([^0-9A-Za-z_-].+)$", expressions[0]):
                 dependency = m.group(1)
