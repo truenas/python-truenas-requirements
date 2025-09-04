@@ -10,47 +10,21 @@ override_dh_auto_build:
 override_dh_gencontrol:
 	dh_gencontrol
 	dh_gencontrol -ppython3-acme -- -v5.0.0
-	dh_gencontrol -ppython3-aiohappyeyeballs -- -v2.6.1
 	dh_gencontrol -ppython3-aiohttp -- -v3.12.14
 	dh_gencontrol -ppython3-aiohttp-rpc -- -v1.3.2
 	dh_gencontrol -ppython3-aiorwlock -- -v1.4.0
 	dh_gencontrol -ppython3-aiosignal -- -v1.4.0
-	dh_gencontrol -ppython3-anyio -- -v4.6.2.post1
-	dh_gencontrol -ppython3-annotated-types -- -v0.7.0
-	dh_gencontrol -ppython3-asyncssh -- -v2.18.0
-	dh_gencontrol -ppython3-attr -- -v24.2.0
-	dh_gencontrol -ppython3-aws-requests-auth -- -v0.4.3
-	dh_gencontrol -ppython3-boto3 -- -v1.36.0
-	dh_gencontrol -ppython3-botocore -- -v1.36.0
 	dh_gencontrol -ppython3-certbot -- -v5.0.0
 	dh_gencontrol -ppython3-certbot-dns-cloudflare -- -v5.0.0
 	dh_gencontrol -ppython3-certbot-dns-digitalocean -- -v5.0.0
 	dh_gencontrol -ppython3-certbot-dns-google -- -v5.0.0
 	dh_gencontrol -ppython3-certbot-dns-ovh -- -v5.0.0
-	dh_gencontrol -ppython3-cloudflare -- -v2.19.0
 	dh_gencontrol -ppython3-cryptography -- -v45.0.6
 	dh_gencontrol -ppython3-dns-lexicon -- -v3.18.0
-	dh_gencontrol -ppython3-docker -- -v7.1.0
-	dh_gencontrol -ppython3-email-validator -- -v2.2.0
-	dh_gencontrol -ppython3-google-api-core -- -v2.21.0
-	dh_gencontrol -ppython3-googleapi -- -v2.149.0
-	dh_gencontrol -ppython3-googleapis-common-protos -- -v1.65.0
 	dh_gencontrol -ppython3-google-auth -- -v2.35.0
-	dh_gencontrol -ppython3-google-auth-httplib2 -- -v0.2.0
-	dh_gencontrol -ppython3-jsonlines -- -v4.0.0
-	dh_gencontrol -ppython3-paramiko -- -v3.5.0
+	dh_gencontrol -ppython3-protobuf -- -v5.29.2
 	dh_gencontrol -ppython3-openssl -- -v25.1.0
 	dh_gencontrol -ppython3-pyrfc3339 -- -v1.1
 	dh_gencontrol -ppython3-prompt-toolkit -- -v3.99.99
-	dh_gencontrol -ppython3-propcache -- -v0.2.0
-	dh_gencontrol -ppython3-proto-plus -- -v1.25.0
-	dh_gencontrol -ppython3-protobuf -- -v5.29.2
-	dh_gencontrol -ppython3-pydantic -- -v2.9.2
-	dh_gencontrol -ppython3-pydantic-core -- -v2.23.4
 	dh_gencontrol -ppython3-pyroute2 -- -v0.7.12
-	dh_gencontrol -ppython3-digitalocean -- -v1.17.0
 	dh_gencontrol -ppython3-remote-pdb -- -v2.1.0
-	dh_gencontrol -ppython3-s3transfer -- -v0.11.0
-	dh_gencontrol -ppython3-typing-extensions -- -v4.12.2
-	dh_gencontrol -ppython3-yarl -- -v1.17.0
-	dh_gencontrol -ppython3-websocket -- -v1.8.0
