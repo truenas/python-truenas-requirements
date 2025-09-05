@@ -7,6 +7,7 @@ certbot-dns-ovh==4.0.0
 dns-lexicon==3.18.0
 google-auth==2.35.0
 protobuf==5.29.2
+python-digitalocean==1.17.0
 pyRFC3339==1.1
 git+https://github.com/truenas/python-prompt-toolkit.git@84d42cd#egg=prompt-toolkit==3.0.37
 pyroute2==0.7.12
