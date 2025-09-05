@@ -15,7 +15,6 @@ override_dh_gencontrol:
 	dh_gencontrol -ppython3-aiosignal -- -v1.4.0
 	dh_gencontrol -ppython3-certbot-dns-digitalocean -- -v4.0.0
 	dh_gencontrol -ppython3-certbot-dns-ovh -- -v4.0.0
-	dh_gencontrol -ppython3-cryptography -- -v45.0.6
 	dh_gencontrol -ppython3-dns-lexicon -- -v3.18.0
 	dh_gencontrol -ppython3-google-auth -- -v2.35.0
 	dh_gencontrol -ppython3-protobuf -- -v5.29.2
