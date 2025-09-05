@@ -4,7 +4,6 @@ aiorwlock==1.4.0
 aiosignal==1.4.0
 certbot-dns-digitalocean==4.0.0
 certbot-dns-ovh==4.0.0
-cryptography==45.0.6
 dns-lexicon==3.18.0
 google-auth==2.35.0
 protobuf==5.29.2
