@@ -18,6 +18,7 @@ override_dh_gencontrol:
 	dh_gencontrol -ppython3-dns-lexicon -- -v3.18.0
 	dh_gencontrol -ppython3-google-auth -- -v2.35.0
 	dh_gencontrol -ppython3-protobuf -- -v5.29.2
+	dh_gencontrol -ppython3-digitalocean -- -v1.17.0
 	dh_gencontrol -ppython3-pyrfc3339 -- -v1.1
 	dh_gencontrol -ppython3-prompt-toolkit -- -v3.99.99
 	dh_gencontrol -ppython3-pyroute2 -- -v0.7.12
