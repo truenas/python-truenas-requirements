@@ -31,6 +31,7 @@ PIP_TO_DEBIAN_MAPPING = {
     "google-api-python-client": "python3-googleapi",
     "pyopenssl": "python3-openssl",
     "pynacl": "python3-nacl",
+    "pyrfc3339": "python3-rfc3339",  # Map PyPI's pyrfc3339 to Debian's python3-rfc3339
     "python-dateutil": "python3-dateutil",
     "python-digitalocean": "python3-digitalocean",
     "pytz": "python3-tz",
