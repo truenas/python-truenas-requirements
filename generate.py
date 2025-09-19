@@ -17,6 +17,14 @@ SKIP_NO_BINARY = {
     "aiohttp-rpc",  # PIP starts downloading `poetry` and other unrelated packages (and fails) if `--no-binary` is used
     "pydantic",
     "pydantic-core",  # Debian bookworm has rustc 1.63.0 while this package requires 1.69 (via toml v0.8.10)
+    "cryptography",  # Requires Rust to build from source
+    "acme",  # Depends on cryptography
+    "certbot",  # Depends on cryptography
+    "certbot-dns-cloudflare",  # Depends on cryptography
+    "certbot-dns-digitalocean",  # Depends on cryptography
+    "certbot-dns-google",  # Depends on cryptography
+    "certbot-dns-ovh",  # Depends on cryptography
+    "cffi",  # Use Debian's python3-cffi package
 }
 PIP_TO_DEBIAN_MAPPING = {
     "attrs": "python3-attr",
@@ -24,6 +32,7 @@ PIP_TO_DEBIAN_MAPPING = {
     "google-api-python-client": "python3-googleapi",
     "pyopenssl": "python3-openssl",
     "pynacl": "python3-nacl",
+    "pyrfc3339": "python3-rfc3339",  # Map PyPI's pyrfc3339 to Debian's python3-rfc3339
     "python-dateutil": "python3-dateutil",
     "python-digitalocean": "python3-digitalocean",
     "pytz": "python3-tz",
@@ -114,6 +123,8 @@ def generate_control():
                                 f"-d /tmp {binary} -v",
                                 check=True, stdout=subprocess.PIPE, shell=True, text=True).stdout
         for dependency in re.findall(r"Collecting (.+)", output):
+            # Remove the (from ...) chain information from pip's output
+            dependency = re.sub(r'\s*\(from [^)]+\)$', '', dependency)
             expressions = dependency.split(",")
             if m := re.match("([0-9A-Za-z_-]+)([^0-9A-Za-z_-].+)$", expressions[0]):
                 dependency = m.group(1)
