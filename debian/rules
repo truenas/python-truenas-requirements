@@ -21,7 +21,5 @@ override_dh_gencontrol:
 	dh_gencontrol -ppython3-ptable -- -v0.9.2
 	dh_gencontrol -ppython3-digitalocean -- -v1.17.0
 	dh_gencontrol -ppython3-prompt-toolkit -- -v3.99.99
-	dh_gencontrol -ppython3-pydantic -- -v2.9.2
-	dh_gencontrol -ppython3-pydantic-core -- -v2.23.4
 	dh_gencontrol -ppython3-pyroute2 -- -v0.7.12
 	dh_gencontrol -ppython3-remote-pdb -- -v2.1.0

@@ -78,18 +78,6 @@ Depends: python3-wcwidth
 Description: Prompt-Toolkit for Python
  Prompt-Toolkit is a prompt-toolkit library for Python.
 
-Package: python3-pydantic
-Architecture: amd64
-Depends: python3-annotated-types (>= 0.6.0), python3-pydantic-core (= 2.23.4), python3-typing-extensions (>= 4.12.2)
-Description: Pydantic for Python
- Pydantic is a pydantic library for Python.
-
-Package: python3-pydantic-core
-Architecture: amd64
-Depends: python3-typing-extensions (>= 4.6.0)
-Description: Pydantic-Core for Python
- Pydantic-Core is a pydantic-core library for Python.
-
 Package: python3-pyroute2
 Architecture: amd64
 Depends: 
