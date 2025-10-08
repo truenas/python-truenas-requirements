@@ -15,8 +15,6 @@ EXTRA_COMMANDS = [
 ]
 SKIP_NO_BINARY = {
     "aiohttp-rpc",  # PIP starts downloading `poetry` and other unrelated packages (and fails) if `--no-binary` is used
-    "pydantic",
-    "pydantic-core",  # Debian bookworm has rustc 1.63.0 while this package requires 1.69 (via toml v0.8.10)
     "cryptography",  # Requires Rust to build from source
     "acme",  # Depends on cryptography
     "certbot",  # Depends on cryptography
