@@ -145,7 +145,7 @@ def generate_control():
                 else:
                     depends.append(dependency)
 
-        depends.sort()
+        depends = sorted(set(depends))
 
         control += "\n" + textwrap.dedent(f"""\
             Package: {package_name}
