@@ -23,6 +23,7 @@ SKIP_NO_BINARY = {
     "certbot-dns-google",  # Depends on cryptography
     "certbot-dns-ovh",  # Depends on cryptography
     "cffi",  # Use Debian's python3-cffi package
+    "dns-lexicon",  # Depends on cryptography
 }
 PIP_TO_DEBIAN_MAPPING = {
     "attrs": "python3-attr",
