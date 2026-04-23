@@ -3,6 +3,7 @@ from dataclasses import dataclass
 from datetime import datetime
 import logging
 import os
+import platform
 import re
 import shutil
 import subprocess
@@ -149,7 +150,7 @@ def generate_control():
 
         control += "\n" + textwrap.dedent(f"""\
             Package: {package_name}
-            Architecture: amd64
+            Architecture: amd64 arm64
             Depends: {', '.join(depends)}
             Description: {requirement.package.title()} for Python
              {requirement.package.title()} is a {requirement.package} library for Python.
@@ -196,6 +197,8 @@ def generate_install():
 
                 if file.endswith(".dist-info/REQUESTED"):
                     continue
+
+                file = file.replace(platform.machine(), "${DEB_TARGET_GNU_CPU}")
 
                 files.append(file)
 
