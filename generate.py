@@ -106,7 +106,7 @@ def generate_control():
         Section: admin
         Priority: optional
         Maintainer: Vladimir Vinogradenko <vladimirv@ixsystems.com>
-        Build-Depends: debhelper-compat (= 12), libffi-dev, python3-virtualenv
+        Build-Depends: debhelper-compat (= 13), libffi-dev, python3-virtualenv
         Standards-Version: 4.4.0
         Homepage: https://truenas.com
     """)
