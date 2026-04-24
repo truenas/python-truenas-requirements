@@ -62,9 +62,9 @@ v/lib/python3.13/site-packages/aiohttp/_cookie_helpers.py usr/lib/python3/dist-p
 v/lib/python3.13/site-packages/aiohttp/_cparser.pxd usr/lib/python3/dist-packages/aiohttp
 v/lib/python3.13/site-packages/aiohttp/_find_header.pxd usr/lib/python3/dist-packages/aiohttp
 v/lib/python3.13/site-packages/aiohttp/_headers.pxi usr/lib/python3/dist-packages/aiohttp
-v/lib/python3.13/site-packages/aiohttp/_http_parser.cpython-313-x86_64-linux-gnu.so usr/lib/python3/dist-packages/aiohttp
+v/lib/python3.13/site-packages/aiohttp/_http_parser.cpython-313-${DEB_TARGET_GNU_CPU}-linux-gnu.so usr/lib/python3/dist-packages/aiohttp
 v/lib/python3.13/site-packages/aiohttp/_http_parser.pyx usr/lib/python3/dist-packages/aiohttp
-v/lib/python3.13/site-packages/aiohttp/_http_writer.cpython-313-x86_64-linux-gnu.so usr/lib/python3/dist-packages/aiohttp
+v/lib/python3.13/site-packages/aiohttp/_http_writer.cpython-313-${DEB_TARGET_GNU_CPU}-linux-gnu.so usr/lib/python3/dist-packages/aiohttp
 v/lib/python3.13/site-packages/aiohttp/_http_writer.pyx usr/lib/python3/dist-packages/aiohttp
 v/lib/python3.13/site-packages/aiohttp/_websocket/.hash/mask.pxd.hash usr/lib/python3/dist-packages/aiohttp/_websocket/.hash
 v/lib/python3.13/site-packages/aiohttp/_websocket/.hash/mask.pyx.hash usr/lib/python3/dist-packages/aiohttp/_websocket/.hash
@@ -78,12 +78,12 @@ v/lib/python3.13/site-packages/aiohttp/_websocket/__pycache__/reader_c.cpython-3
 v/lib/python3.13/site-packages/aiohttp/_websocket/__pycache__/reader_py.cpython-313.pyc usr/lib/python3/dist-packages/aiohttp/_websocket/__pycache__
 v/lib/python3.13/site-packages/aiohttp/_websocket/__pycache__/writer.cpython-313.pyc usr/lib/python3/dist-packages/aiohttp/_websocket/__pycache__
 v/lib/python3.13/site-packages/aiohttp/_websocket/helpers.py usr/lib/python3/dist-packages/aiohttp/_websocket
-v/lib/python3.13/site-packages/aiohttp/_websocket/mask.cpython-313-x86_64-linux-gnu.so usr/lib/python3/dist-packages/aiohttp/_websocket
+v/lib/python3.13/site-packages/aiohttp/_websocket/mask.cpython-313-${DEB_TARGET_GNU_CPU}-linux-gnu.so usr/lib/python3/dist-packages/aiohttp/_websocket
 v/lib/python3.13/site-packages/aiohttp/_websocket/mask.pxd usr/lib/python3/dist-packages/aiohttp/_websocket
 v/lib/python3.13/site-packages/aiohttp/_websocket/mask.pyx usr/lib/python3/dist-packages/aiohttp/_websocket
 v/lib/python3.13/site-packages/aiohttp/_websocket/models.py usr/lib/python3/dist-packages/aiohttp/_websocket
 v/lib/python3.13/site-packages/aiohttp/_websocket/reader.py usr/lib/python3/dist-packages/aiohttp/_websocket
-v/lib/python3.13/site-packages/aiohttp/_websocket/reader_c.cpython-313-x86_64-linux-gnu.so usr/lib/python3/dist-packages/aiohttp/_websocket
+v/lib/python3.13/site-packages/aiohttp/_websocket/reader_c.cpython-313-${DEB_TARGET_GNU_CPU}-linux-gnu.so usr/lib/python3/dist-packages/aiohttp/_websocket
 v/lib/python3.13/site-packages/aiohttp/_websocket/reader_c.pxd usr/lib/python3/dist-packages/aiohttp/_websocket
 v/lib/python3.13/site-packages/aiohttp/_websocket/reader_c.py usr/lib/python3/dist-packages/aiohttp/_websocket
 v/lib/python3.13/site-packages/aiohttp/_websocket/reader_py.py usr/lib/python3/dist-packages/aiohttp/_websocket
