@@ -18,12 +18,6 @@ Depends: python3-aiohappyeyeballs (>= 2.5.0), python3-aiohttp (<< 4), python3-ai
 Description: Aiohttp-Rpc for Python
  Aiohttp-Rpc is a aiohttp-rpc library for Python.
 
-Package: python3-aiorwlock
-Architecture: amd64 arm64
-Depends: 
-Description: Aiorwlock for Python
- Aiorwlock is a aiorwlock library for Python.
-
 Package: python3-aiosignal
 Architecture: amd64 arm64
 Depends: python3-frozenlist (>= 1.1.0)
@@ -77,12 +71,6 @@ Architecture: amd64 arm64
 Depends: python3-wcwidth
 Description: Prompt-Toolkit for Python
  Prompt-Toolkit is a prompt-toolkit library for Python.
-
-Package: python3-pyroute2
-Architecture: amd64 arm64
-Depends: 
-Description: Pyroute2 for Python
- Pyroute2 is a pyroute2 library for Python.
 
 Package: python3-remote-pdb
 Architecture: amd64 arm64
