@@ -25,6 +25,12 @@ SKIP_NO_BINARY = {
     "cffi",  # Use Debian's python3-cffi package
     "dns-lexicon",  # Depends on cryptography
 }
+ABI_PROVIDES = {
+    # Debian's certbot and its dns plugins depend on the versioned virtual package
+    # python3-acme-abi-<major>. When we ship our own acme it replaces Debian's, so it
+    # has to keep providing that virtual package or certbot becomes uninstallable.
+    "acme": "python3-acme-abi-{major}",
+}
 PIP_TO_DEBIAN_MAPPING = {
     "attrs": "python3-attr",
     "beautifulsoup4": "python3-bs4",
@@ -147,13 +153,23 @@ def generate_control():
 
         depends = sorted(set(depends))
 
-        control += "\n" + textwrap.dedent(f"""\
+        stanza = textwrap.dedent(f"""\
             Package: {package_name}
             Architecture: amd64
             Depends: {', '.join(depends)}
             Description: {requirement.package.title()} for Python
              {requirement.package.title()} is a {requirement.package} library for Python.
         """)
+
+        if requirement.package in ABI_PROVIDES:
+            major, minor = requirement.version.split(".")[:2]
+            provides = ABI_PROVIDES[requirement.package].format(major=major)
+            stanza = stanza.replace(
+                "Depends: " + ", ".join(depends) + "\n",
+                "Depends: " + ", ".join(depends) + f"\nProvides: {provides} (= {major}.{minor})\n",
+            )
+
+        control += "\n" + stanza
 
     with open("debian/control", "w") as f:
         f.write(control)
